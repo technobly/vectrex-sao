@@ -408,7 +408,7 @@
 
   (footprint "vectrex-sao:C_0603_1608Metric" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp 0615ed10-2dfe-4b24-b694-81f84eaf2c43)
-    (at 81.28 43.18 -135)
+    (at 96.52 43.18 -135)
     (descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "capacitor")
     (property "Sheetfile" "vectrex-sao.kicad_sch")
@@ -781,7 +781,7 @@
 
   (footprint "vectrex-sao:C_0603_1608Metric" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp 1214a66b-268f-498c-a56e-c8528db7babd)
-    (at 83.82 40.64 -135)
+    (at 93.98 40.64 -135)
     (descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "capacitor")
     (property "Sheetfile" "vectrex-sao.kicad_sch")
@@ -915,7 +915,7 @@
 
   (footprint "vectrex-sao:C_0603_1608Metric" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp 1ab383a8-de89-4e74-bf08-e43e73a4c8fb)
-    (at 93.98 43.18 -135)
+    (at 83.82 43.18 -135)
     (descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "capacitor")
     (property "Sheetfile" "vectrex-sao.kicad_sch")
@@ -1191,7 +1191,7 @@
 
   (footprint "vectrex-sao:C_0603_1608Metric" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp 33f18d39-0ab4-4fa0-a93c-b1d9361cb7e6)
-    (at 86.36 40.64 -135)
+    (at 91.44 40.64 -135)
     (descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "capacitor")
     (property "Sheetfile" "vectrex-sao.kicad_sch")
@@ -1375,7 +1375,7 @@
 
   (footprint "vectrex-sao:C_0603_1608Metric" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp 3daeb273-47b1-40e5-b30f-2ad921ecc3e0)
-    (at 96.52 43.18 -135)
+    (at 81.28 43.18 -135)
     (descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "capacitor")
     (property "Sheetfile" "vectrex-sao.kicad_sch")
@@ -2415,7 +2415,7 @@
 
   (footprint "vectrex-sao:C_0603_1608Metric" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp 8a1d62dc-f50a-4606-9df1-27bc224d5bcd)
-    (at 86.36 43.18 -135)
+    (at 91.44 43.18 -135)
     (descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "capacitor")
     (property "Sheetfile" "vectrex-sao.kicad_sch")
@@ -2609,7 +2609,7 @@
 
   (footprint "vectrex-sao:C_0603_1608Metric" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp 998a1db6-c6dd-4e2d-bb6e-874c28cc9ad2)
-    (at 91.44 43.18 -135)
+    (at 86.36 43.18 -135)
     (descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "capacitor")
     (property "Sheetfile" "vectrex-sao.kicad_sch")
@@ -2835,7 +2835,7 @@
 
   (footprint "vectrex-sao:C_0603_1608Metric" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp ac5a8b27-15e0-4d71-96b5-91f404954e36)
-    (at 96.52 40.64 -135)
+    (at 81.28 40.64 -135)
     (descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "capacitor")
     (property "Sheetfile" "vectrex-sao.kicad_sch")
@@ -3157,7 +3157,7 @@
 
   (footprint "vectrex-sao:C_0603_1608Metric" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp bda85e9a-6676-4b93-89a8-905988a6b6db)
-    (at 81.28 40.64 -135)
+    (at 96.52 40.64 -135)
     (descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "capacitor")
     (property "Sheetfile" "vectrex-sao.kicad_sch")
@@ -3341,7 +3341,7 @@
 
   (footprint "vectrex-sao:C_0603_1608Metric" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp c8b2efe7-8010-458b-9abe-e45c198e66d9)
-    (at 93.98 40.64 -135)
+    (at 83.82 40.64 -135)
     (descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "capacitor")
     (property "Sheetfile" "vectrex-sao.kicad_sch")
@@ -3387,7 +3387,7 @@
 
   (footprint "vectrex-sao:C_0603_1608Metric" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp cf96c2f2-cc56-4cf8-bf52-82093fd4f706)
-    (at 83.82 43.18 -135)
+    (at 93.98 43.18 -135)
     (descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "capacitor")
     (property "Sheetfile" "vectrex-sao.kicad_sch")
@@ -3768,7 +3768,7 @@
 
   (footprint "vectrex-sao:C_0603_1608Metric" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp fb40c22d-2921-46aa-8a66-4dddbd4fdd34)
-    (at 91.44 40.64 -135)
+    (at 86.36 40.64 -135)
     (descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "capacitor")
     (property "Sheetfile" "vectrex-sao.kicad_sch")
