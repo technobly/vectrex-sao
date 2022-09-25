@@ -1,3 +1,5 @@
 (sym_lib_table
   (lib (name "vectrex-sao-eagle-import")(type "KiCad")(uri "${KIPRJMOD}/vectrex-sao-eagle-import.kicad_sym")(options "")(descr ""))
+  (lib (name "Badgelife")(type "Legacy")(uri "/Users/brett/code/debugging/technobly/vectrex-sao/libs/badgelife_shitty_addon_v169bis.lib")(options "")(descr ""))
+  (lib (name "vectrex-sao")(type "KiCad")(uri "/Users/brett/code/debugging/technobly/vectrex-stereo-ay/hardware/libs/vectrex-sao.kicad_sym")(options "")(descr ""))
 )
