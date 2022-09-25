@@ -592,7 +592,7 @@
 
   (footprint "vectrex-sao:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm" (layer "F.Cu")
     (tedit 60B557B5) (tstamp 0d81e7c9-34cc-4f53-a1c8-5686caba4baa)
-    (at 73.66 60.96)
+    (at 73.66 63.5)
     (descr "SMD Solder Jumper, 1x1.5mm, rounded Pads, 0.3mm gap, open")
     (tags "solder jumper open")
     (property "Sheetfile" "vectrex-sao.kicad_sch")
@@ -603,7 +603,7 @@
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp f5736497-35cd-4e51-98c7-d9a11ed634a6)
     )
-    (fp_text value "SOLDERJUMPER" (at 0.2 2.4) (layer "F.Fab")
+    (fp_text value "SOLDERJUMPER" (at 0.2 2.4) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 24208d2b-0f0a-4c11-ba63-45d4620a3f4c)
     )
@@ -873,7 +873,7 @@
 
   (footprint "Capacitor_SMD:C_0805_2012Metric" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp 17176999-332c-4909-8130-ee2a1788e94c)
-    (at 73.66 48.26)
+    (at 73.66 50.8)
     (descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
     (tags "capacitor")
     (property "Sheetfile" "vectrex-sao.kicad_sch")
@@ -1946,7 +1946,7 @@
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp 461aabe3-953b-4046-b7c3-c98044ea31f9)
     )
-    (fp_text value "Badgelife_sao_connector_v169bis" (at 0 7.54) (layer "F.Fab")
+    (fp_text value "Badgelife_sao_connector_v169bis" (at 5.08 5.08) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 4adbc648-3de6-4291-a078-c2bed1a70df1)
     )
@@ -2281,7 +2281,7 @@
 
   (footprint "Capacitor_SMD:C_0805_2012Metric" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp 7909a87e-42e0-4c02-bfc9-4b2dcc1788ba)
-    (at 68.58 60.96)
+    (at 73.66 45.72)
     (descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
     (tags "capacitor")
     (property "Sheetfile" "vectrex-sao.kicad_sch")
@@ -2747,7 +2747,7 @@
 
   (footprint "Capacitor_SMD:C_0805_2012Metric" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp a4b9bc7d-b27c-499f-823b-5e1e7da491ce)
-    (at 73.66 53.34)
+    (at 73.66 55.88)
     (descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
     (tags "capacitor")
     (property "Sheetfile" "vectrex-sao.kicad_sch")
