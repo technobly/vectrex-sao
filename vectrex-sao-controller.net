@@ -1,0 +1,42 @@
+(export (version "E")
+  (design
+    (source "/Users/brett/code/debugging/technobly/vectrex-sao/vectrex-sao-controller.kicad_sch")
+    (date "Saturday, October 01, 2022 at 12:20:58 AM")
+    (tool "Eeschema (6.0.7-1)-1")
+    (sheet (number "1") (name "/") (tstamps "/")
+      (title_block
+        (title "Vectrex SAO")
+        (company)
+        (rev)
+        (date "2022-09-24")
+        (source "vectrex-sao-controller.kicad_sch")
+        (comment (number "1") (value ""))
+        (comment (number "2") (value ""))
+        (comment (number "3") (value ""))
+        (comment (number "4") (value ""))
+        (comment (number "5") (value ""))
+        (comment (number "6") (value ""))
+        (comment (number "7") (value ""))
+        (comment (number "8") (value ""))
+        (comment (number "9") (value "")))))
+  (components
+    (comp (ref "JP1")
+      (value "TOUCH_PAD")
+      (footprint "MountingHole:MountingHole_2.2mm_M2_Pad_TopOnly")
+      (libsource (lib "") (part "FIDUCIAL{dblquote}{dblquote}_1") (description ""))
+      (property (name "Sheetname") (value ""))
+      (property (name "Sheetfile") (value "vectrex-sao-controller.kicad_sch"))
+      (sheetpath (names "/") (tstamps "/"))
+      (tstamps "4f41e457-f470-4bb4-a02c-0c760bdfe2e2")))
+  (libparts
+    (libpart (lib "") (part "FIDUCIAL{dblquote}{dblquote}_1")
+      (fields
+        (field (name "Reference") "JP1")
+        (field (name "Value") "TOUCH_PAD")
+        (field (name "Footprint") "MountingHole:MountingHole_2.2mm_M2_Pad_TopOnly"))
+      (pins
+        (pin (num "1") (name "TP") (type "input")))))
+  (libraries)
+  (nets
+    (net (code "1") (name "/TOUCH_PAD")
+      (node (ref "JP1") (pin "1") (pinfunction "TP") (pintype "input")))))

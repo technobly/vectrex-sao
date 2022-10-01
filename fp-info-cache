@@ -1,4 +1,4 @@
-9609178933506
+19818448891208
 vectrex-sao
 Badgelife-SAOv169-BADGE-2x3
 Through hole straight IDC box header, 2x03, 2.54mm pitch, double rows
@@ -21,6 +21,27 @@ capacitor
 2
 2
 vectrex-sao
+LED_0603
+Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator
+capacitor
+0
+2
+2
+vectrex-sao
+LED_0603_1608Metric
+Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator
+capacitor
+0
+2
+2
+vectrex-sao
+MountingHole_1.5mm_M2_Pad_TopOnly
+Mounting Hole 2.2mm, M2
+mounting hole 2.2mm m2
+0
+2
+1
+vectrex-sao
 R_Array_Convex_4x0603_CAT16-F4
 Chip Resistor Network, ROHM MNR14 (see mnr_g.pdf)
 resistor array
@@ -41,3 +62,24 @@ solder jumper open
 0
 3
 3
+vectrex-sao
+vectrex-graphic-complete-80mm
+
+
+0
+0
+0
+vectrex-sao
+vectrex-graphic-console-80mm
+
+
+0
+0
+0
+vectrex-sao
+vectrex-graphic-controller-80mm
+
+
+0
+0
+0
