@@ -1,0 +1,8 @@
+# Ignoring files according to http://microchip.wikidot.com/faq:72
+build/
+dist/
+
+# Ingoring private Makefiles, to create them open and compile with XC8 in MPLABX IDE
+nbproject/Makefile-*
+nbproject/Package-*
+nbproject/private/
