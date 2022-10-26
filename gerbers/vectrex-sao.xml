@@ -1,0 +1,1648 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>/Users/brett/code/debugging/technobly/vectrex-sao/vectrex-sao.kicad_sch</source>
+    <date>Friday, October 07, 2022 at 02:35:17 PM</date>
+    <tool>Eeschema (6.0.7-1)-1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>Vectrex SAO by Brett Walach</title>
+        <company>https://www.PlayVectrex.com</company>
+        <rev>v1.0</rev>
+        <date>2022-09-24</date>
+        <source>vectrex-sao.kicad_sch</source>
+        <comment number="1" value="@Technobly / Supercon `22"/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C1">
+      <value>10uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <libsource lib="vectrex-sao" part="CAP_CERAMIC0805-NOOUTLINE" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="vectrex-sao.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c53f7851-9ed5-4427-b0fd-f800a35ea9b3</tstamps>
+    </comp>
+    <comp ref="C1-1">
+      <value>LED0603_NOOUTLINE</value>
+      <footprint>vectrex-sao:LED_0603_1608Metric</footprint>
+      <libsource lib="vectrex-sao" part="LED" description="940nm IR-LED, 5mm"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="vectrex-sao.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>78a71ac9-1bbc-4a31-8d85-6b0bbdb3bcd6</tstamps>
+    </comp>
+    <comp ref="C1-2">
+      <value>LED0603_NOOUTLINE</value>
+      <footprint>vectrex-sao:LED_0603_1608Metric</footprint>
+      <libsource lib="vectrex-sao" part="LED" description="940nm IR-LED, 5mm"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="vectrex-sao.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f852397a-b2ea-4816-9a39-1dd9a9ffa7df</tstamps>
+    </comp>
+    <comp ref="C1-3">
+      <value>LED0603_NOOUTLINE</value>
+      <footprint>vectrex-sao:LED_0603_1608Metric</footprint>
+      <libsource lib="vectrex-sao" part="LED" description="940nm IR-LED, 5mm"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="vectrex-sao.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2f8d4210-fca8-4568-9ca3-477972462b17</tstamps>
+    </comp>
+    <comp ref="C1-4">
+      <value>LED0603_NOOUTLINE</value>
+      <footprint>vectrex-sao:LED_0603_1608Metric</footprint>
+      <libsource lib="vectrex-sao" part="LED" description="940nm IR-LED, 5mm"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="vectrex-sao.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1a79e5be-3f86-4326-8a2c-fa6861d1e2d6</tstamps>
+    </comp>
+    <comp ref="C1-5">
+      <value>LED0603_NOOUTLINE</value>
+      <footprint>vectrex-sao:LED_0603_1608Metric</footprint>
+      <libsource lib="vectrex-sao" part="LED" description="940nm IR-LED, 5mm"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="vectrex-sao.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9c50e641-5ae2-479b-bd3a-23ead865515f</tstamps>
+    </comp>
+    <comp ref="C1-6">
+      <value>LED0603_NOOUTLINE</value>
+      <footprint>vectrex-sao:LED_0603_1608Metric</footprint>
+      <libsource lib="vectrex-sao" part="LED" description="940nm IR-LED, 5mm"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="vectrex-sao.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>87338061-bf84-42bf-9de9-57a0f27fd863</tstamps>
+    </comp>
+    <comp ref="C1-7">
+      <value>LED0603_NOOUTLINE</value>
+      <footprint>vectrex-sao:LED_0603_1608Metric</footprint>
+      <libsource lib="vectrex-sao" part="LED" description="940nm IR-LED, 5mm"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="vectrex-sao.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>bdc1101a-c2fc-470e-a4a0-2cb1d3dc092c</tstamps>
+    </comp>
+    <comp ref="C2">
+      <value>10uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <libsource lib="vectrex-sao" part="CAP_CERAMIC0805-NOOUTLINE" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="vectrex-sao.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>897ccdde-4d52-427c-a316-815fe443f03c</tstamps>
+    </comp>
+    <comp ref="C2-1">
+      <value>LED0603_NOOUTLINE</value>
+      <footprint>vectrex-sao:LED_0603_1608Metric</footprint>
+      <libsource lib="vectrex-sao" part="LED" description="940nm IR-LED, 5mm"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="vectrex-sao.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0e12097c-f217-4f14-be23-642563bb54c9</tstamps>
+    </comp>
+    <comp ref="C2-2">
+      <value>LED0603_NOOUTLINE</value>
+      <footprint>vectrex-sao:LED_0603_1608Metric</footprint>
+      <libsource lib="vectrex-sao" part="LED" description="940nm IR-LED, 5mm"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="vectrex-sao.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1abca9bc-0c07-4d7f-8706-ae0f0d4cb5ba</tstamps>
+    </comp>
+    <comp ref="C2-3">
+      <value>LED0603_NOOUTLINE</value>
+      <footprint>vectrex-sao:LED_0603_1608Metric</footprint>
+      <libsource lib="vectrex-sao" part="LED" description="940nm IR-LED, 5mm"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="vectrex-sao.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>054d8a43-bf4d-4bd6-9b2d-66ce545de63e</tstamps>
+    </comp>
+    <comp ref="C2-4">
+      <value>LED0603_NOOUTLINE</value>
+      <footprint>vectrex-sao:LED_0603_1608Metric</footprint>
+      <libsource lib="vectrex-sao" part="LED" description="940nm IR-LED, 5mm"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="vectrex-sao.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>81e24afe-0f70-4628-9169-0f87d1b180af</tstamps>
+    </comp>
+    <comp ref="C2-5">
+      <value>LED0603_NOOUTLINE</value>
+      <footprint>vectrex-sao:LED_0603_1608Metric</footprint>
+      <libsource lib="vectrex-sao" part="LED" description="940nm IR-LED, 5mm"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="vectrex-sao.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>fd897622-6163-48b6-bbca-a78b2035aaed</tstamps>
+    </comp>
+    <comp ref="C2-6">
+      <value>LED0603_NOOUTLINE</value>
+      <footprint>vectrex-sao:LED_0603_1608Metric</footprint>
+      <libsource lib="vectrex-sao" part="LED" description="940nm IR-LED, 5mm"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="vectrex-sao.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>49d0d516-a512-4e72-9919-addc1034fca2</tstamps>
+    </comp>
+    <comp ref="C2-7">
+      <value>LED0603_NOOUTLINE</value>
+      <footprint>vectrex-sao:LED_0603_1608Metric</footprint>
+      <libsource lib="vectrex-sao" part="LED" description="940nm IR-LED, 5mm"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="vectrex-sao.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>033c3a05-60d5-4a86-8f6e-7e4e28e6f483</tstamps>
+    </comp>
+    <comp ref="C3">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <libsource lib="vectrex-sao" part="CAP_CERAMIC0805-NOOUTLINE" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="vectrex-sao.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>33c78a86-ad69-497e-826b-1a603d4a51d4</tstamps>
+    </comp>
+    <comp ref="C3-1">
+      <value>LED0603_NOOUTLINE</value>
+      <footprint>vectrex-sao:LED_0603_1608Metric</footprint>
+      <libsource lib="vectrex-sao" part="LED" description="940nm IR-LED, 5mm"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="vectrex-sao.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3df1190e-f231-4a03-a192-47376e9443ec</tstamps>
+    </comp>
+    <comp ref="C3-2">
+      <value>LED0603_NOOUTLINE</value>
+      <footprint>vectrex-sao:LED_0603_1608Metric</footprint>
+      <libsource lib="vectrex-sao" part="LED" description="940nm IR-LED, 5mm"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="vectrex-sao.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>30eef1b0-98c5-45c8-830f-0dbb6cbf0614</tstamps>
+    </comp>
+    <comp ref="C3-3">
+      <value>LED0603_NOOUTLINE</value>
+      <footprint>vectrex-sao:LED_0603_1608Metric</footprint>
+      <libsource lib="vectrex-sao" part="LED" description="940nm IR-LED, 5mm"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="vectrex-sao.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>088297e4-7b97-4dfc-b7d5-7196556e1e1d</tstamps>
+    </comp>
+    <comp ref="C3-4">
+      <value>LED0603_NOOUTLINE</value>
+      <footprint>vectrex-sao:LED_0603_1608Metric</footprint>
+      <libsource lib="vectrex-sao" part="LED" description="940nm IR-LED, 5mm"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="vectrex-sao.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2ba510b5-369c-461e-9f3d-5a32f4a25e6f</tstamps>
+    </comp>
+    <comp ref="C3-5">
+      <value>LED0603_NOOUTLINE</value>
+      <footprint>vectrex-sao:LED_0603_1608Metric</footprint>
+      <libsource lib="vectrex-sao" part="LED" description="940nm IR-LED, 5mm"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="vectrex-sao.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2531c970-185e-4cfb-a590-86783cf8f7ce</tstamps>
+    </comp>
+    <comp ref="C3-6">
+      <value>LED0603_NOOUTLINE</value>
+      <footprint>vectrex-sao:LED_0603_1608Metric</footprint>
+      <libsource lib="vectrex-sao" part="LED" description="940nm IR-LED, 5mm"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="vectrex-sao.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8111a167-c38a-4df5-9d4e-ab0b2221d928</tstamps>
+    </comp>
+    <comp ref="C3-7">
+      <value>LED0603_NOOUTLINE</value>
+      <footprint>vectrex-sao:LED_0603_1608Metric</footprint>
+      <libsource lib="vectrex-sao" part="LED" description="940nm IR-LED, 5mm"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="vectrex-sao.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>53c2f7a8-71b7-4ef5-8e30-649dcbc7a04a</tstamps>
+    </comp>
+    <comp ref="C4">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <libsource lib="vectrex-sao" part="CAP_CERAMIC0805-NOOUTLINE" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="vectrex-sao.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7b4fade0-392e-49b7-b9a4-6e88237ad988</tstamps>
+    </comp>
+    <comp ref="C4-1">
+      <value>LED0603_NOOUTLINE</value>
+      <footprint>vectrex-sao:LED_0603_1608Metric</footprint>
+      <libsource lib="vectrex-sao" part="LED" description="940nm IR-LED, 5mm"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="vectrex-sao.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>63d694ef-cd57-4831-864a-9968b6486588</tstamps>
+    </comp>
+    <comp ref="C4-2">
+      <value>LED0603_NOOUTLINE</value>
+      <footprint>vectrex-sao:LED_0603_1608Metric</footprint>
+      <libsource lib="vectrex-sao" part="LED" description="940nm IR-LED, 5mm"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="vectrex-sao.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2b147473-cca0-413c-9c6c-48f35b300bbe</tstamps>
+    </comp>
+    <comp ref="C4-3">
+      <value>LED0603_NOOUTLINE</value>
+      <footprint>vectrex-sao:LED_0603_1608Metric</footprint>
+      <libsource lib="vectrex-sao" part="LED" description="940nm IR-LED, 5mm"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="vectrex-sao.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>96618e1b-c1ba-4dfb-a4a0-e2a8f3035770</tstamps>
+    </comp>
+    <comp ref="C4-4">
+      <value>LED0603_NOOUTLINE</value>
+      <footprint>vectrex-sao:LED_0603_1608Metric</footprint>
+      <libsource lib="vectrex-sao" part="LED" description="940nm IR-LED, 5mm"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="vectrex-sao.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>de624091-2e3a-49f5-89c7-6fd74b72e727</tstamps>
+    </comp>
+    <comp ref="C4-5">
+      <value>LED0603_NOOUTLINE</value>
+      <footprint>vectrex-sao:LED_0603_1608Metric</footprint>
+      <libsource lib="vectrex-sao" part="LED" description="940nm IR-LED, 5mm"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="vectrex-sao.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>999d03ae-433b-47c2-a411-fdfdde82c801</tstamps>
+    </comp>
+    <comp ref="C4-6">
+      <value>LED0603_NOOUTLINE</value>
+      <footprint>vectrex-sao:LED_0603_1608Metric</footprint>
+      <libsource lib="vectrex-sao" part="LED" description="940nm IR-LED, 5mm"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="vectrex-sao.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a8b56d06-a5d2-408d-8eed-6b690f7541b4</tstamps>
+    </comp>
+    <comp ref="C4-7">
+      <value>LED0603_NOOUTLINE</value>
+      <footprint>vectrex-sao:LED_0603_1608Metric</footprint>
+      <libsource lib="vectrex-sao" part="LED" description="940nm IR-LED, 5mm"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="vectrex-sao.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c781a0bd-3d30-4e0d-a864-2cb9efc9b6ce</tstamps>
+    </comp>
+    <comp ref="C5">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <libsource lib="vectrex-sao" part="CAP_CERAMIC0805-NOOUTLINE" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="vectrex-sao.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6c3b6d3b-c167-4022-874a-2cf71c659b69</tstamps>
+    </comp>
+    <comp ref="C5-1">
+      <value>LED0603_NOOUTLINE</value>
+      <footprint>vectrex-sao:LED_0603_1608Metric</footprint>
+      <libsource lib="vectrex-sao" part="LED" description="940nm IR-LED, 5mm"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="vectrex-sao.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>cfd0e75e-8f95-41e4-bbbf-bcd4e6c0f521</tstamps>
+    </comp>
+    <comp ref="C5-2">
+      <value>LED0603_NOOUTLINE</value>
+      <footprint>vectrex-sao:LED_0603_1608Metric</footprint>
+      <libsource lib="vectrex-sao" part="LED" description="940nm IR-LED, 5mm"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="vectrex-sao.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b34b83e8-9fe5-48ab-9177-7a77c915af46</tstamps>
+    </comp>
+    <comp ref="C5-3">
+      <value>LED0603_NOOUTLINE</value>
+      <footprint>vectrex-sao:LED_0603_1608Metric</footprint>
+      <libsource lib="vectrex-sao" part="LED" description="940nm IR-LED, 5mm"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="vectrex-sao.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>381c9a57-64c8-49bf-a2d0-14822a9c1ae3</tstamps>
+    </comp>
+    <comp ref="C5-4">
+      <value>LED0603_NOOUTLINE</value>
+      <footprint>vectrex-sao:LED_0603_1608Metric</footprint>
+      <libsource lib="vectrex-sao" part="LED" description="940nm IR-LED, 5mm"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="vectrex-sao.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>fbaee2eb-63a2-4ace-9c89-7e4201f0634a</tstamps>
+    </comp>
+    <comp ref="C5-5">
+      <value>LED0603_NOOUTLINE</value>
+      <footprint>vectrex-sao:LED_0603_1608Metric</footprint>
+      <libsource lib="vectrex-sao" part="LED" description="940nm IR-LED, 5mm"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="vectrex-sao.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>87d38408-61fd-4c25-aab6-994b8bdf0e07</tstamps>
+    </comp>
+    <comp ref="C5-6">
+      <value>LED0603_NOOUTLINE</value>
+      <footprint>vectrex-sao:LED_0603_1608Metric</footprint>
+      <libsource lib="vectrex-sao" part="LED" description="940nm IR-LED, 5mm"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="vectrex-sao.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d1848c88-db85-42ff-9fb0-7762e6a327ac</tstamps>
+    </comp>
+    <comp ref="C5-7">
+      <value>LED0603_NOOUTLINE</value>
+      <footprint>vectrex-sao:LED_0603_1608Metric</footprint>
+      <libsource lib="vectrex-sao" part="LED" description="940nm IR-LED, 5mm"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="vectrex-sao.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a0dd6e9c-de75-4cf8-91e8-ad1940e0870a</tstamps>
+    </comp>
+    <comp ref="C6">
+      <value>22pF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <libsource lib="vectrex-sao" part="CAP_CERAMIC0805-NOOUTLINE" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="vectrex-sao.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>bcc0af7d-d763-49ea-89c8-f9a4331ff127</tstamps>
+    </comp>
+    <comp ref="C6-1">
+      <value>LED0603_NOOUTLINE</value>
+      <footprint>vectrex-sao:LED_0603_1608Metric</footprint>
+      <libsource lib="vectrex-sao" part="LED" description="940nm IR-LED, 5mm"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="vectrex-sao.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>cc919e81-fa12-4347-b97b-760cac407087</tstamps>
+    </comp>
+    <comp ref="C6-2">
+      <value>LED0603_NOOUTLINE</value>
+      <footprint>vectrex-sao:LED_0603_1608Metric</footprint>
+      <libsource lib="vectrex-sao" part="LED" description="940nm IR-LED, 5mm"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="vectrex-sao.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ba13eed2-bb0d-42bd-97c2-cf0ff71dc157</tstamps>
+    </comp>
+    <comp ref="C6-3">
+      <value>LED0603_NOOUTLINE</value>
+      <footprint>vectrex-sao:LED_0603_1608Metric</footprint>
+      <libsource lib="vectrex-sao" part="LED" description="940nm IR-LED, 5mm"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="vectrex-sao.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7f4e145a-ea5f-4ce7-ab83-58d341225e6e</tstamps>
+    </comp>
+    <comp ref="C6-4">
+      <value>LED0603_NOOUTLINE</value>
+      <footprint>vectrex-sao:LED_0603_1608Metric</footprint>
+      <libsource lib="vectrex-sao" part="LED" description="940nm IR-LED, 5mm"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="vectrex-sao.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b395520d-ae16-4b7e-b869-4c736ee98650</tstamps>
+    </comp>
+    <comp ref="C6-5">
+      <value>LED0603_NOOUTLINE</value>
+      <footprint>vectrex-sao:LED_0603_1608Metric</footprint>
+      <libsource lib="vectrex-sao" part="LED" description="940nm IR-LED, 5mm"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="vectrex-sao.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>93db983f-e475-4796-8906-ee4a6df54ee1</tstamps>
+    </comp>
+    <comp ref="C6-6">
+      <value>LED0603_NOOUTLINE</value>
+      <footprint>vectrex-sao:LED_0603_1608Metric</footprint>
+      <libsource lib="vectrex-sao" part="LED" description="940nm IR-LED, 5mm"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="vectrex-sao.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>aac121c1-c147-4c99-8595-81603b66b02a</tstamps>
+    </comp>
+    <comp ref="C6-7">
+      <value>LED0603_NOOUTLINE</value>
+      <footprint>vectrex-sao:LED_0603_1608Metric</footprint>
+      <libsource lib="vectrex-sao" part="LED" description="940nm IR-LED, 5mm"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="vectrex-sao.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>cf0836cd-3ab6-4ac8-9304-afa89ad87a48</tstamps>
+    </comp>
+    <comp ref="C7-1">
+      <value>LED0603_NOOUTLINE</value>
+      <footprint>vectrex-sao:LED_0603_1608Metric</footprint>
+      <libsource lib="vectrex-sao" part="LED" description="940nm IR-LED, 5mm"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="vectrex-sao.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>fd14589e-9206-4e11-9361-b61654020991</tstamps>
+    </comp>
+    <comp ref="C7-2">
+      <value>LED0603_NOOUTLINE</value>
+      <footprint>vectrex-sao:LED_0603_1608Metric</footprint>
+      <libsource lib="vectrex-sao" part="LED" description="940nm IR-LED, 5mm"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="vectrex-sao.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>601d33b7-0c97-4204-8948-62e091043deb</tstamps>
+    </comp>
+    <comp ref="C7-3">
+      <value>LED0603_NOOUTLINE</value>
+      <footprint>vectrex-sao:LED_0603_1608Metric</footprint>
+      <libsource lib="vectrex-sao" part="LED" description="940nm IR-LED, 5mm"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="vectrex-sao.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ba324e3d-3f93-446a-b2e1-a565a60cb092</tstamps>
+    </comp>
+    <comp ref="C7-4">
+      <value>LED0603_NOOUTLINE</value>
+      <footprint>vectrex-sao:LED_0603_1608Metric</footprint>
+      <libsource lib="vectrex-sao" part="LED" description="940nm IR-LED, 5mm"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="vectrex-sao.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f0bfaf0c-fb27-460b-9de1-63ce008cf474</tstamps>
+    </comp>
+    <comp ref="C7-5">
+      <value>LED0603_NOOUTLINE</value>
+      <footprint>vectrex-sao:LED_0603_1608Metric</footprint>
+      <libsource lib="vectrex-sao" part="LED" description="940nm IR-LED, 5mm"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="vectrex-sao.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>471cb4b3-1323-4fbb-a272-9a58d945aa95</tstamps>
+    </comp>
+    <comp ref="C7-6">
+      <value>LED0603_NOOUTLINE</value>
+      <footprint>vectrex-sao:LED_0603_1608Metric</footprint>
+      <libsource lib="vectrex-sao" part="LED" description="940nm IR-LED, 5mm"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="vectrex-sao.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a32c7f01-0eb6-4232-8066-8c3f5ae59cb1</tstamps>
+    </comp>
+    <comp ref="C7-7">
+      <value>LED0603_NOOUTLINE</value>
+      <footprint>vectrex-sao:LED_0603_1608Metric</footprint>
+      <libsource lib="vectrex-sao" part="LED" description="940nm IR-LED, 5mm"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="vectrex-sao.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a4eac0da-53f9-42b1-8b1f-97e49baaa066</tstamps>
+    </comp>
+    <comp ref="C7-8">
+      <value>LED0603_NOOUTLINE</value>
+      <footprint>vectrex-sao:LED_0603_1608Metric</footprint>
+      <libsource lib="vectrex-sao" part="LED" description="940nm IR-LED, 5mm"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="vectrex-sao.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d3362d57-7e68-42e6-a0b9-e45977540e11</tstamps>
+    </comp>
+    <comp ref="C7-9">
+      <value>LED0603_NOOUTLINE</value>
+      <footprint>vectrex-sao:LED_0603_1608Metric</footprint>
+      <libsource lib="vectrex-sao" part="LED" description="940nm IR-LED, 5mm"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="vectrex-sao.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4e6fe079-9835-4017-883a-a9f3153cc5d1</tstamps>
+    </comp>
+    <comp ref="C7-10">
+      <value>LED0603_NOOUTLINE</value>
+      <footprint>vectrex-sao:LED_0603_1608Metric</footprint>
+      <libsource lib="vectrex-sao" part="LED" description="940nm IR-LED, 5mm"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="vectrex-sao.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>fea8c846-d351-4afa-a464-5477659ee403</tstamps>
+    </comp>
+    <comp ref="C7-11">
+      <value>LED0603_NOOUTLINE</value>
+      <footprint>vectrex-sao:LED_0603_1608Metric</footprint>
+      <libsource lib="vectrex-sao" part="LED" description="940nm IR-LED, 5mm"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="vectrex-sao.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>82f2d39c-9034-40ec-ba68-5820beda091b</tstamps>
+    </comp>
+    <comp ref="C7-12">
+      <value>LED0603_NOOUTLINE</value>
+      <footprint>vectrex-sao:LED_0603_1608Metric</footprint>
+      <libsource lib="vectrex-sao" part="LED" description="940nm IR-LED, 5mm"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="vectrex-sao.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4aa4ae6c-4905-491c-8e2b-364af6ad6a4f</tstamps>
+    </comp>
+    <comp ref="C7-13">
+      <value>LED0603_NOOUTLINE</value>
+      <footprint>vectrex-sao:LED_0603_1608Metric</footprint>
+      <libsource lib="vectrex-sao" part="LED" description="940nm IR-LED, 5mm"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="vectrex-sao.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c4565ee1-7747-4c58-861a-9272ea52bb27</tstamps>
+    </comp>
+    <comp ref="C7-14">
+      <value>LED0603_NOOUTLINE</value>
+      <footprint>vectrex-sao:LED_0603_1608Metric</footprint>
+      <libsource lib="vectrex-sao" part="LED" description="940nm IR-LED, 5mm"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="vectrex-sao.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5d786092-13e4-4246-8c4e-3dd1cbff1997</tstamps>
+    </comp>
+    <comp ref="C8-1">
+      <value>LED0603_NOOUTLINE</value>
+      <footprint>vectrex-sao:LED_0603_1608Metric</footprint>
+      <libsource lib="vectrex-sao" part="LED" description="940nm IR-LED, 5mm"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="vectrex-sao.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e9289e4f-a777-4691-8821-7a9b4ec53c98</tstamps>
+    </comp>
+    <comp ref="C8-2">
+      <value>LED0603_NOOUTLINE</value>
+      <footprint>vectrex-sao:LED_0603_1608Metric</footprint>
+      <libsource lib="vectrex-sao" part="LED" description="940nm IR-LED, 5mm"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="vectrex-sao.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3e65bedf-98fe-4605-9bea-4fadbb056af3</tstamps>
+    </comp>
+    <comp ref="C8-3">
+      <value>LED0603_NOOUTLINE</value>
+      <footprint>vectrex-sao:LED_0603_1608Metric</footprint>
+      <libsource lib="vectrex-sao" part="LED" description="940nm IR-LED, 5mm"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="vectrex-sao.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>fbe8ea47-c79c-4695-a237-770f26541962</tstamps>
+    </comp>
+    <comp ref="C8-4">
+      <value>LED0603_NOOUTLINE</value>
+      <footprint>vectrex-sao:LED_0603_1608Metric</footprint>
+      <libsource lib="vectrex-sao" part="LED" description="940nm IR-LED, 5mm"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="vectrex-sao.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>129c4c69-274c-41ca-8d86-aaa744f1e788</tstamps>
+    </comp>
+    <comp ref="C8-5">
+      <value>LED0603_NOOUTLINE</value>
+      <footprint>vectrex-sao:LED_0603_1608Metric</footprint>
+      <libsource lib="vectrex-sao" part="LED" description="940nm IR-LED, 5mm"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="vectrex-sao.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>fd875bc2-f8ab-43fe-bf83-f3feae167598</tstamps>
+    </comp>
+    <comp ref="C8-6">
+      <value>LED0603_NOOUTLINE</value>
+      <footprint>vectrex-sao:LED_0603_1608Metric</footprint>
+      <libsource lib="vectrex-sao" part="LED" description="940nm IR-LED, 5mm"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="vectrex-sao.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ae454fcc-935e-4e6c-b613-bf7ec3df973c</tstamps>
+    </comp>
+    <comp ref="C8-7">
+      <value>LED0603_NOOUTLINE</value>
+      <footprint>vectrex-sao:LED_0603_1608Metric</footprint>
+      <libsource lib="vectrex-sao" part="LED" description="940nm IR-LED, 5mm"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="vectrex-sao.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5ee97737-5dbe-4fa8-bda2-a4f439ff08d6</tstamps>
+    </comp>
+    <comp ref="C8-8">
+      <value>LED0603_NOOUTLINE</value>
+      <footprint>vectrex-sao:LED_0603_1608Metric</footprint>
+      <libsource lib="vectrex-sao" part="LED" description="940nm IR-LED, 5mm"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="vectrex-sao.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2b5c2647-7921-421e-964f-f886d4c7f76e</tstamps>
+    </comp>
+    <comp ref="C8-9">
+      <value>LED0603_NOOUTLINE</value>
+      <footprint>vectrex-sao:LED_0603_1608Metric</footprint>
+      <libsource lib="vectrex-sao" part="LED" description="940nm IR-LED, 5mm"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="vectrex-sao.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3b7bbdf3-ba3c-4de8-bfe9-545d8bf642bc</tstamps>
+    </comp>
+    <comp ref="C8-10">
+      <value>LED0603_NOOUTLINE</value>
+      <footprint>vectrex-sao:LED_0603_1608Metric</footprint>
+      <libsource lib="vectrex-sao" part="LED" description="940nm IR-LED, 5mm"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="vectrex-sao.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c9a9a1f9-81d5-4d69-b195-8e74748be5ef</tstamps>
+    </comp>
+    <comp ref="C8-11">
+      <value>LED0603_NOOUTLINE</value>
+      <footprint>vectrex-sao:LED_0603_1608Metric</footprint>
+      <libsource lib="vectrex-sao" part="LED" description="940nm IR-LED, 5mm"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="vectrex-sao.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f029e9be-d451-44ea-a029-0b659ad75560</tstamps>
+    </comp>
+    <comp ref="C8-12">
+      <value>LED0603_NOOUTLINE</value>
+      <footprint>vectrex-sao:LED_0603_1608Metric</footprint>
+      <libsource lib="vectrex-sao" part="LED" description="940nm IR-LED, 5mm"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="vectrex-sao.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9d9f1976-5ab7-45b5-b78d-7cb7ba638651</tstamps>
+    </comp>
+    <comp ref="C8-13">
+      <value>LED0603_NOOUTLINE</value>
+      <footprint>vectrex-sao:LED_0603_1608Metric</footprint>
+      <libsource lib="vectrex-sao" part="LED" description="940nm IR-LED, 5mm"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="vectrex-sao.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>bee9ff3d-0a03-4d00-80f9-25114f8a4cd2</tstamps>
+    </comp>
+    <comp ref="C8-14">
+      <value>LED0603_NOOUTLINE</value>
+      <footprint>vectrex-sao:LED_0603_1608Metric</footprint>
+      <libsource lib="vectrex-sao" part="LED" description="940nm IR-LED, 5mm"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="vectrex-sao.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ac50db6b-f2ac-40c8-9a24-9f4130614319</tstamps>
+    </comp>
+    <comp ref="D1">
+      <value>MBR0520</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <datasheet>http://www.mccsemi.com/up_pdf/MBR0520~MBR0580(SOD123).pdf</datasheet>
+      <libsource lib="Diode" part="MBR0520" description="20V 0.5A Schottky Power Rectifier Diode, SOD-123"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="vectrex-sao.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b21a740a-a22f-44ef-9031-d6825561bbee</tstamps>
+    </comp>
+    <comp ref="J1">
+      <value>ICSP</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical_SMD_Pin1Right</footprint>
+      <libsource lib="vectrex-sao" part="Conn_01x06" description="Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="vectrex-sao.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2f8b4ab0-9591-4e34-bf72-41263c64389c</tstamps>
+    </comp>
+    <comp ref="J2">
+      <value>SAO_v169bis</value>
+      <footprint>vectrex-sao:Badgelife-SAOv169-SAO-2x3</footprint>
+      <libsource lib="Badgelife" part="Badgelife_sao_connector_v169bis" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="vectrex-sao.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>aec9c0b2-927c-4687-828a-58901651acc7</tstamps>
+    </comp>
+    <comp ref="JP1">
+      <value>TOUCH_PAD</value>
+      <footprint>vectrex-sao:MountingHole_1.5mm_M2_Pad_TopOnly</footprint>
+      <libsource lib="" part="FIDUCIAL{dblquote}{dblquote}_1" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="vectrex-sao.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4f41e457-f470-4bb4-a02c-0c760bdfe2e2</tstamps>
+    </comp>
+    <comp ref="JP2">
+      <value>solderjumper-3way</value>
+      <footprint>vectrex-sao:SolderJumper-3_P1.3mm_Bridged12_RoundedPad1.0x1.5mm_NumberLabels</footprint>
+      <libsource lib="Jumper" part="SolderJumper_3_Bridged12" description="3-pole Solder Jumper, pins 1+2 closed/bridged"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="vectrex-sao.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d339211d-03d5-4e09-a58a-4f898cc8f720</tstamps>
+    </comp>
+    <comp ref="JP3">
+      <value>0x77</value>
+      <footprint>vectrex-sao:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm</footprint>
+      <libsource lib="Jumper" part="SolderJumper_2_Open" description="Solder Jumper, 2-pole, open"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="vectrex-sao.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>99dccdca-2122-47f6-9204-7191a2a7ed90</tstamps>
+    </comp>
+    <comp ref="JP4">
+      <value>TX</value>
+      <footprint>vectrex-sao:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm</footprint>
+      <libsource lib="Jumper" part="SolderJumper_2_Open" description="Solder Jumper, 2-pole, open"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="vectrex-sao.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>21e55d47-d2cd-4bc1-a7bc-62d216354a17</tstamps>
+    </comp>
+    <comp ref="JP5">
+      <value>RX</value>
+      <footprint>vectrex-sao:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm</footprint>
+      <libsource lib="Jumper" part="SolderJumper_2_Open" description="Solder Jumper, 2-pole, open"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="vectrex-sao.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3669fd4d-e9ad-4351-9fe9-c2b72a8a9b26</tstamps>
+    </comp>
+    <comp ref="JP6">
+      <value>solderjumper-3way</value>
+      <footprint>vectrex-sao:SolderJumper-3_P1.3mm_Bridged12_RoundedPad1.0x1.5mm_NumberLabels</footprint>
+      <libsource lib="Jumper" part="SolderJumper_3_Bridged12" description="3-pole Solder Jumper, pins 1+2 closed/bridged"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="vectrex-sao.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>84417949-df0e-4973-8b88-6d3ecbf7ba92</tstamps>
+    </comp>
+    <comp ref="JP7">
+      <value>solderjumper-3way</value>
+      <footprint>vectrex-sao:SolderJumper-3_P1.3mm_Bridged12_RoundedPad1.0x1.5mm_NumberLabels</footprint>
+      <libsource lib="Jumper" part="SolderJumper_3_Bridged12" description="3-pole Solder Jumper, pins 1+2 closed/bridged"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="vectrex-sao.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a4bb4ddf-31d4-45f4-ac5a-07585df525f6</tstamps>
+    </comp>
+    <comp ref="JP8">
+      <value>solderjumper-3way</value>
+      <footprint>vectrex-sao:SolderJumper-3_P1.3mm_Bridged12_RoundedPad1.0x1.5mm_NumberLabels</footprint>
+      <libsource lib="Jumper" part="SolderJumper_3_Bridged12" description="3-pole Solder Jumper, pins 1+2 closed/bridged"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="vectrex-sao.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b004e4cf-787e-42c6-9df8-3f4dad5f4fa7</tstamps>
+    </comp>
+    <comp ref="JP9">
+      <value>SOUND</value>
+      <footprint>vectrex-sao:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm</footprint>
+      <libsource lib="Jumper" part="SolderJumper_2_Open" description="Solder Jumper, 2-pole, open"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="vectrex-sao.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>489ce93f-a318-4931-b351-2a55c635c844</tstamps>
+    </comp>
+    <comp ref="LED1">
+      <value>LED0603_NOOUTLINE</value>
+      <footprint>vectrex-sao:LED_0603_1608Metric</footprint>
+      <libsource lib="vectrex-sao" part="LED" description="940nm IR-LED, 5mm"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="vectrex-sao.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b943080e-e166-46a6-a2f8-198bff83c0e4</tstamps>
+    </comp>
+    <comp ref="LS1">
+      <value>Speaker FUET-9032-05</value>
+      <footprint>vectrex-sao:MagneticBuzzer_FUET-9032-05</footprint>
+      <libsource lib="Device" part="Speaker" description="Speaker"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="vectrex-sao.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>010143f6-bb1c-4413-be92-21787df12e70</tstamps>
+    </comp>
+    <comp ref="LS2">
+      <value>Speaker FUET-9032-05</value>
+      <footprint>vectrex-sao:MagneticBuzzer_FUET-9032-05</footprint>
+      <libsource lib="Device" part="Speaker" description="Speaker"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="vectrex-sao.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e8a59c31-6241-447e-8c1f-c9a80b076ba6</tstamps>
+    </comp>
+    <comp ref="Q1">
+      <value>MMBT3904</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://www.onsemi.com/pub/Collateral/2N3903-D.PDF</datasheet>
+      <libsource lib="Transistor_BJT" part="MMBT3904" description="0.2A Ic, 40V Vce, Small Signal NPN Transistor, SOT-23"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="vectrex-sao.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>945b421d-ef85-4ddc-b45f-c56197ee5523</tstamps>
+    </comp>
+    <comp ref="R1">
+      <value>10K</value>
+      <footprint>vectrex-sao:R_Array_Convex_4x0603_CAT16-F4</footprint>
+      <libsource lib="vectrex-sao" part="RESISTOR_4PACK" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="vectrex-sao.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e878082d-61ee-4fd8-8fd5-668ac0dce423 e1218752-94db-49fd-ba8d-e3bb7902c48b 3aeb8c50-4460-4e60-b7ec-6f464ba5a887</tstamps>
+    </comp>
+    <comp ref="R2">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="vectrex-sao.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f37fb5e7-6263-40b7-8a86-c7727a9421d9</tstamps>
+    </comp>
+    <comp ref="R3">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="vectrex-sao.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>67380266-4e06-4518-8517-098af61c566f</tstamps>
+    </comp>
+    <comp ref="R4">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="vectrex-sao.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3cb96d87-6e14-4a5e-af9f-d8042178a4fc</tstamps>
+    </comp>
+    <comp ref="R5">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="vectrex-sao.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b3964de2-7713-4716-b1fe-a4e559663f93</tstamps>
+    </comp>
+    <comp ref="R6">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="vectrex-sao.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>38e4120d-7754-4a02-96a8-f0d64006618f</tstamps>
+    </comp>
+    <comp ref="U1">
+      <value>PIC16F886-IP</value>
+      <footprint>Package_SO:SOIC-28W_7.5x17.9mm_P1.27mm</footprint>
+      <datasheet>http://ww1.microchip.com/downloads/en/DeviceDoc/41291D.pdf</datasheet>
+      <libsource lib="vectrex-sao" part="PIC16F886-IP" description="8K Flash, 256B SRAM, 256B EEPROM, XLP, DIP28"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="vectrex-sao.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7adc9a41-3432-46a6-85bd-91d07f45db34</tstamps>
+    </comp>
+    <comp ref="U2">
+      <value>IS31FL3731-SALS2</value>
+      <footprint>Package_DFN_QFN:QFN-28-1EP_4x4mm_P0.4mm_EP2.3x2.3mm</footprint>
+      <libsource lib="vectrex-sao" part="IS31FL3731QFN" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="vectrex-sao.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b28b8f18-0157-4cbf-8e07-c78ed73a0fc1</tstamps>
+    </comp>
+    <comp ref="U3">
+      <value>TC233A</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23-6</footprint>
+      <libsource lib="vectrex-sao" part="TC233A" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="vectrex-sao.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>fa3cbb9c-ad5e-43b6-8d66-30e8a12b3aff</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="" part="FIDUCIAL{dblquote}{dblquote}_1">
+      <fields>
+        <field name="Reference">JP1</field>
+        <field name="Value">TOUCH_PAD</field>
+        <field name="Footprint">MountingHole:MountingHole_2.2mm_M2_Pad_TopOnly</field>
+      </fields>
+      <pins>
+        <pin num="1" name="TP" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="Badgelife" part="Badgelife_sao_connector_v169bis">
+      <fields>
+        <field name="Reference">X</field>
+        <field name="Value">Badgelife_sao_connector_v169bis</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VCC" type="input"/>
+        <pin num="2" name="GND" type="input"/>
+        <pin num="3" name="SDA" type="input"/>
+        <pin num="4" name="SCL" type="input"/>
+        <pin num="5" name="GPIO1" type="input"/>
+        <pin num="6" name="GPIO2" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Speaker">
+      <description>Speaker</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">LS?</field>
+        <field name="Value">Speaker</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="input"/>
+        <pin num="2" name="2" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="Diode" part="MBR0520">
+      <description>20V 0.5A Schottky Power Rectifier Diode, SOD-123</description>
+      <docs>http://www.mccsemi.com/up_pdf/MBR0520~MBR0580(SOD123).pdf</docs>
+      <footprints>
+        <fp>D*SOD?123*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">MBR0520</field>
+        <field name="Footprint">Diode_SMD:D_SOD-123</field>
+        <field name="Datasheet">http://www.mccsemi.com/up_pdf/MBR0520~MBR0580(SOD123).pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Jumper" part="SolderJumper_2_Open">
+      <description>Solder Jumper, 2-pole, open</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>SolderJumper*Open*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">JP</field>
+        <field name="Value">SolderJumper_2_Open</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="2" name="B" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Jumper" part="SolderJumper_3_Bridged12">
+      <description>3-pole Solder Jumper, pins 1+2 closed/bridged</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>SolderJumper*Bridged12*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">JP</field>
+        <field name="Value">SolderJumper_3_Bridged12</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="2" name="C" type="passive"/>
+        <pin num="3" name="B" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Transistor_BJT" part="MMBT3904">
+      <description>0.2A Ic, 40V Vce, Small Signal NPN Transistor, SOT-23</description>
+      <docs>https://www.onsemi.com/pub/Collateral/2N3903-D.PDF</docs>
+      <footprints>
+        <fp>SOT?23*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">MMBT3904</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23</field>
+        <field name="Datasheet">https://www.onsemi.com/pub/Collateral/2N3903-D.PDF</field>
+      </fields>
+      <pins>
+        <pin num="1" name="B" type="input"/>
+        <pin num="2" name="E" type="passive"/>
+        <pin num="3" name="C" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="vectrex-sao" part="CAP_CERAMIC0805-NOOUTLINE">
+      <fields>
+        <field name="Reference">C1</field>
+        <field name="Value">CAP_CERAMIC0805-NOOUTLINE</field>
+        <field name="Footprint">Capacitor_SMD:C_0805_2012Metric</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="vectrex-sao" part="Conn_01x06">
+      <description>Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J1</field>
+        <field name="Value">Conn_01x06</field>
+        <field name="Footprint">Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical_SMD_Pin1Right</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="vectrex-sao" part="IS31FL3731QFN">
+      <fields>
+        <field name="Reference">U2</field>
+        <field name="Value">IS31FL3731QFN</field>
+        <field name="Footprint">Package_DFN_QFN:QFN-28-1EP_4x4mm_P0.4mm_EP2.3x2.3mm</field>
+      </fields>
+      <pins>
+        <pin num="1" name="CA9" type="bidirectional"/>
+        <pin num="2" name="VCC" type="power_in"/>
+        <pin num="3" name="SHUTDOWN" type="input"/>
+        <pin num="4" name="INTB" type="output"/>
+        <pin num="5" name="GND" type="power_in"/>
+        <pin num="6" name="R_EXT" type="bidirectional"/>
+        <pin num="7" name="CB1" type="bidirectional"/>
+        <pin num="8" name="CB2" type="bidirectional"/>
+        <pin num="9" name="CB3" type="bidirectional"/>
+        <pin num="10" name="CB4" type="bidirectional"/>
+        <pin num="11" name="CB5" type="bidirectional"/>
+        <pin num="12" name="CB6" type="bidirectional"/>
+        <pin num="13" name="CB7" type="bidirectional"/>
+        <pin num="14" name="CB8" type="bidirectional"/>
+        <pin num="15" name="CB9" type="bidirectional"/>
+        <pin num="16" name="C_FILT" type="bidirectional"/>
+        <pin num="17" name="AUDIOIN" type="input"/>
+        <pin num="18" name="ADDR" type="bidirectional"/>
+        <pin num="19" name="SDA" type="bidirectional"/>
+        <pin num="20" name="SCL" type="bidirectional"/>
+        <pin num="21" name="CA1" type="bidirectional"/>
+        <pin num="22" name="CA2" type="bidirectional"/>
+        <pin num="23" name="CA3" type="bidirectional"/>
+        <pin num="24" name="CA4" type="bidirectional"/>
+        <pin num="25" name="CA5" type="bidirectional"/>
+        <pin num="26" name="CA6" type="bidirectional"/>
+        <pin num="27" name="CA7" type="bidirectional"/>
+        <pin num="28" name="CA8" type="bidirectional"/>
+        <pin num="29" name="GND" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="vectrex-sao" part="LED">
+      <description>940nm IR-LED, 5mm</description>
+      <footprints>
+        <fp>LED*5.0mm*IRGrey*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="vectrex-sao" part="PIC16F886-IP">
+      <description>8K Flash, 256B SRAM, 256B EEPROM, XLP, DIP28</description>
+      <docs>http://ww1.microchip.com/downloads/en/DeviceDoc/41291D.pdf</docs>
+      <footprints>
+        <fp>DIP*</fp>
+        <fp>PDIP*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U1</field>
+        <field name="Value">PIC16F886-IP</field>
+        <field name="Footprint">Package_SO:SOIC-28W_7.5x17.9mm_P1.27mm</field>
+        <field name="Datasheet">http://ww1.microchip.com/downloads/en/DeviceDoc/41291D.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="RE3/~{MCLR}/Vpp" type="bidirectional"/>
+        <pin num="2" name="ULPWU/C12IN0-/AN0/RA0" type="bidirectional"/>
+        <pin num="3" name="C12IN1-/AN1/RA1" type="bidirectional"/>
+        <pin num="4" name="CVref/C2IN1+/Vref-/AN2/RA2" type="bidirectional"/>
+        <pin num="5" name="C1IN+/Vref+/AN3/RA3" type="bidirectional"/>
+        <pin num="6" name="T0CKI/C1OUT/RA4" type="bidirectional"/>
+        <pin num="7" name="~{SS}/C2OUT/AN4/RA5" type="bidirectional"/>
+        <pin num="8" name="VSS" type="power_in"/>
+        <pin num="9" name="CLKIN/OSC1/RA7" type="input"/>
+        <pin num="10" name="CLKOUT/OSC2/RA6" type="bidirectional"/>
+        <pin num="11" name="RC0/T1OSO/T1CK1" type="bidirectional"/>
+        <pin num="12" name="RC1/T1OSI/CCP2" type="bidirectional"/>
+        <pin num="13" name="RC2/P1A/CCP1" type="bidirectional"/>
+        <pin num="14" name="RC3/SCK/SCL" type="bidirectional"/>
+        <pin num="15" name="RC4/SDI/SDA" type="bidirectional"/>
+        <pin num="16" name="RC5/SDO" type="bidirectional"/>
+        <pin num="17" name="RC6/TX/CK" type="bidirectional"/>
+        <pin num="18" name="RC7/RX/DT" type="bidirectional"/>
+        <pin num="19" name="VSS" type="power_in"/>
+        <pin num="20" name="VDD" type="power_in"/>
+        <pin num="21" name="INT/AN12/RB0" type="bidirectional"/>
+        <pin num="22" name="P1C/AN10/RB1" type="bidirectional"/>
+        <pin num="23" name="P1B/AN8/RB2" type="bidirectional"/>
+        <pin num="24" name="PGM/C12IN2-/AN8/RB3" type="bidirectional"/>
+        <pin num="25" name="P1D/AN11/RB4" type="bidirectional"/>
+        <pin num="26" name="~{T1G}/AN13/RB5" type="bidirectional"/>
+        <pin num="27" name="ICSPCLK/RB6" type="bidirectional"/>
+        <pin num="28" name="ICSPDAT/RB7" type="bidirectional"/>
+      </pins>
+    </libpart>
+    <libpart lib="vectrex-sao" part="RESISTOR_4PACK">
+      <fields>
+        <field name="Reference">R1</field>
+        <field name="Value">RESISTOR_4PACK</field>
+        <field name="Footprint">vectrex-sao:R_Array_Convex_4x0603_CAT16-F4</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="1" type="passive"/>
+        <pin num="3" name="1" type="passive"/>
+        <pin num="4" name="1" type="passive"/>
+        <pin num="5" name="2" type="passive"/>
+        <pin num="6" name="2" type="passive"/>
+        <pin num="7" name="2" type="passive"/>
+        <pin num="8" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="vectrex-sao" part="TC233A">
+      <fields>
+        <field name="Reference">U?</field>
+        <field name="Value">TC233A</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23-6</field>
+      </fields>
+      <pins>
+        <pin num="1" name="OUT" type="output"/>
+        <pin num="2" name="GND" type="passive"/>
+        <pin num="3" name="TCH" type="input"/>
+        <pin num="4" name="LHO" type="input"/>
+        <pin num="5" name="VDD" type="input"/>
+        <pin num="6" name="OHO" type="input"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Badgelife">
+      <uri>/Users/brett/code/debugging/technobly/vectrex-sao/libs/badgelife_shitty_addon_v169bis.lib</uri>
+    </library>
+    <library logical="Device">
+      <uri>/Applications/KiCad/KiCad.app/Contents/SharedSupport/symbols//Device.kicad_sym</uri>
+    </library>
+    <library logical="Diode">
+      <uri>/Applications/KiCad/KiCad.app/Contents/SharedSupport/symbols//Diode.kicad_sym</uri>
+    </library>
+    <library logical="Jumper">
+      <uri>/Applications/KiCad/KiCad.app/Contents/SharedSupport/symbols//Jumper.kicad_sym</uri>
+    </library>
+    <library logical="Transistor_BJT">
+      <uri>/Applications/KiCad/KiCad.app/Contents/SharedSupport/symbols//Transistor_BJT.kicad_sym</uri>
+    </library>
+    <library logical="vectrex-sao">
+      <uri>/Users/brett/code/debugging/technobly/vectrex-stereo-ay/hardware/libs/vectrex-sao.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="+3.3V">
+      <node ref="C1" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="C2" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="C3" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="C4" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="C5" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="D1" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="J1" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J2" pin="1" pinfunction="VCC" pintype="input"/>
+      <node ref="JP3" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="LS1" pin="1" pinfunction="1" pintype="input"/>
+      <node ref="R1" pin="7" pinfunction="2" pintype="passive"/>
+      <node ref="R1" pin="8" pinfunction="2" pintype="passive"/>
+      <node ref="R2" pin="2" pintype="passive"/>
+      <node ref="R4" pin="2" pintype="passive"/>
+      <node ref="U1" pin="20" pinfunction="VDD" pintype="power_in"/>
+      <node ref="U2" pin="2" pinfunction="VCC" pintype="power_in"/>
+      <node ref="U2" pin="3" pinfunction="SHUTDOWN" pintype="input"/>
+      <node ref="U3" pin="4" pinfunction="LHO" pintype="input"/>
+      <node ref="U3" pin="5" pinfunction="VDD" pintype="input"/>
+    </net>
+    <net code="2" name="/ADDR">
+      <node ref="JP3" pin="2" pinfunction="B" pintype="passive"/>
+      <node ref="R1" pin="3" pinfunction="1" pintype="passive"/>
+      <node ref="U2" pin="18" pinfunction="ADDR" pintype="bidirectional"/>
+    </net>
+    <net code="3" name="/CA1">
+      <node ref="C1-1" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="C1-2" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="C1-3" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="C1-4" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="C1-5" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="C1-6" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="C1-7" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="U2" pin="21" pinfunction="CA1" pintype="bidirectional"/>
+    </net>
+    <net code="4" name="/CA2">
+      <node ref="C2-1" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="C2-2" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="C2-3" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="C2-4" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="C2-5" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="C2-6" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="C2-7" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="C3-1" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="C4-1" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="C5-1" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="C6-1" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="C7-1" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="C8-1" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="U2" pin="22" pinfunction="CA2" pintype="bidirectional"/>
+    </net>
+    <net code="5" name="/CA3">
+      <node ref="C1-1" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="C2-1" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="C3-1" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="C3-2" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="C3-3" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="C3-4" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="C3-5" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="C3-6" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="C3-7" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="C4-2" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="C5-2" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="C6-2" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="C7-2" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="C8-2" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="U2" pin="23" pinfunction="CA3" pintype="bidirectional"/>
+    </net>
+    <net code="6" name="/CA4">
+      <node ref="C1-2" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="C2-2" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="C3-2" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="C4-1" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="C4-2" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="C4-3" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="C4-4" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="C4-5" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="C4-6" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="C4-7" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="C5-3" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="C6-3" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="C7-3" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="C8-3" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="U2" pin="24" pinfunction="CA4" pintype="bidirectional"/>
+    </net>
+    <net code="7" name="/CA5">
+      <node ref="C1-3" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="C2-3" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="C3-3" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="C4-3" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="C5-1" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="C5-2" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="C5-3" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="C5-4" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="C5-5" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="C5-6" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="C5-7" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="C6-4" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="C7-4" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="C8-4" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="U2" pin="25" pinfunction="CA5" pintype="bidirectional"/>
+    </net>
+    <net code="8" name="/CA6">
+      <node ref="C1-4" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="C2-4" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="C3-4" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="C4-4" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="C5-4" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="C6-1" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="C6-2" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="C6-3" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="C6-4" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="C6-5" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="C6-6" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="C6-7" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="C7-5" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="C8-5" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="U2" pin="26" pinfunction="CA6" pintype="bidirectional"/>
+    </net>
+    <net code="9" name="/CA7">
+      <node ref="C1-5" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="C2-5" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="C3-5" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="C4-5" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="C5-5" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="C6-5" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="C7-1" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="C7-2" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="C7-3" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="C7-4" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="C7-5" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="C7-6" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="C7-7" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="C8-6" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="U2" pin="27" pinfunction="CA7" pintype="bidirectional"/>
+    </net>
+    <net code="10" name="/CA8">
+      <node ref="C1-6" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="C2-6" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="C3-6" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="C4-6" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="C5-6" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="C6-6" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="C7-6" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="C8-1" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="C8-2" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="C8-3" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="C8-4" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="C8-5" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="C8-6" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="C8-7" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="U2" pin="28" pinfunction="CA8" pintype="bidirectional"/>
+    </net>
+    <net code="11" name="/CA9">
+      <node ref="C1-7" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="C2-7" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="C3-7" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="C4-7" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="C5-7" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="C6-7" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="C7-7" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="C8-7" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="U2" pin="1" pinfunction="CA9" pintype="bidirectional"/>
+    </net>
+    <net code="12" name="/CB1">
+      <node ref="C7-8" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="C8-8" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="U2" pin="7" pinfunction="CB1" pintype="bidirectional"/>
+    </net>
+    <net code="13" name="/CB2">
+      <node ref="C7-9" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="C8-9" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="U2" pin="8" pinfunction="CB2" pintype="bidirectional"/>
+    </net>
+    <net code="14" name="/CB3">
+      <node ref="C7-10" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="C8-10" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="U2" pin="9" pinfunction="CB3" pintype="bidirectional"/>
+    </net>
+    <net code="15" name="/CB4">
+      <node ref="C7-11" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="C8-11" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="U2" pin="10" pinfunction="CB4" pintype="bidirectional"/>
+    </net>
+    <net code="16" name="/CB5">
+      <node ref="C7-12" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="C8-12" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="U2" pin="11" pinfunction="CB5" pintype="bidirectional"/>
+    </net>
+    <net code="17" name="/CB6">
+      <node ref="C7-13" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="C8-13" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="U2" pin="12" pinfunction="CB6" pintype="bidirectional"/>
+    </net>
+    <net code="18" name="/CB7">
+      <node ref="C7-10" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="C7-11" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="C7-12" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="C7-13" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="C7-14" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="C7-8" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="C7-9" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="C8-14" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="U2" pin="13" pinfunction="CB7" pintype="bidirectional"/>
+    </net>
+    <net code="19" name="/CB8">
+      <node ref="C7-14" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="C8-10" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="C8-11" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="C8-12" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="C8-13" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="C8-14" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="C8-8" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="C8-9" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="U2" pin="14" pinfunction="CB8" pintype="bidirectional"/>
+    </net>
+    <net code="20" name="/ICSPCLK">
+      <node ref="J1" pin="5" pinfunction="Pin_5" pintype="passive"/>
+      <node ref="U1" pin="27" pinfunction="ICSPCLK/RB6" pintype="bidirectional"/>
+    </net>
+    <net code="21" name="/ICSPDAT">
+      <node ref="J1" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="U1" pin="28" pinfunction="ICSPDAT/RB7" pintype="bidirectional"/>
+    </net>
+    <net code="22" name="/LED_INT_UC">
+      <node ref="U1" pin="24" pinfunction="PGM/C12IN2-/AN8/RB3" pintype="bidirectional"/>
+      <node ref="U2" pin="4" pinfunction="INTB" pintype="output"/>
+    </net>
+    <net code="23" name="/MCLR">
+      <node ref="J1" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="U1" pin="1" pinfunction="RE3/~{MCLR}/Vpp" pintype="bidirectional"/>
+    </net>
+    <net code="24" name="/PWM_BADGE">
+      <node ref="J2" pin="5" pinfunction="GPIO1" pintype="input"/>
+      <node ref="JP5" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="JP8" pin="3" pinfunction="B" pintype="passive"/>
+    </net>
+    <net code="25" name="/PWM_IN">
+      <node ref="JP8" pin="2" pinfunction="C" pintype="passive"/>
+      <node ref="JP9" pin="1" pinfunction="A" pintype="passive"/>
+    </net>
+    <net code="26" name="/PWM_UC">
+      <node ref="JP8" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="U1" pin="13" pinfunction="RC2/P1A/CCP1" pintype="bidirectional"/>
+    </net>
+    <net code="27" name="/SCL_BADGE">
+      <node ref="J2" pin="4" pinfunction="SCL" pintype="input"/>
+      <node ref="JP6" pin="3" pinfunction="B" pintype="passive"/>
+    </net>
+    <net code="28" name="/SCL_LED">
+      <node ref="JP6" pin="2" pinfunction="C" pintype="passive"/>
+      <node ref="R1" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U2" pin="20" pinfunction="SCL" pintype="bidirectional"/>
+    </net>
+    <net code="29" name="/SCL_UC">
+      <node ref="JP6" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="U1" pin="14" pinfunction="RC3/SCK/SCL" pintype="bidirectional"/>
+    </net>
+    <net code="30" name="/SDA_BADGE">
+      <node ref="J2" pin="3" pinfunction="SDA" pintype="input"/>
+      <node ref="JP2" pin="3" pinfunction="B" pintype="passive"/>
+    </net>
+    <net code="31" name="/SDA_LED">
+      <node ref="JP2" pin="2" pinfunction="C" pintype="passive"/>
+      <node ref="R1" pin="2" pinfunction="1" pintype="passive"/>
+      <node ref="U2" pin="19" pinfunction="SDA" pintype="bidirectional"/>
+    </net>
+    <net code="32" name="/SDA_UC">
+      <node ref="JP2" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="U1" pin="15" pinfunction="RC4/SDI/SDA" pintype="bidirectional"/>
+    </net>
+    <net code="33" name="/TOUCH_BADGE">
+      <node ref="J2" pin="6" pinfunction="GPIO2" pintype="input"/>
+      <node ref="JP4" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="JP7" pin="3" pinfunction="B" pintype="passive"/>
+    </net>
+    <net code="34" name="/TOUCH_OUT">
+      <node ref="JP7" pin="2" pinfunction="C" pintype="passive"/>
+      <node ref="LED1" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="R2" pin="1" pintype="passive"/>
+      <node ref="U3" pin="1" pinfunction="OUT" pintype="output"/>
+    </net>
+    <net code="35" name="/TOUCH_PAD">
+      <node ref="JP1" pin="1" pinfunction="TP" pintype="input"/>
+      <node ref="R3" pin="2" pintype="passive"/>
+    </net>
+    <net code="36" name="/TOUCH_UC">
+      <node ref="JP7" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="U1" pin="21" pinfunction="INT/AN12/RB0" pintype="bidirectional"/>
+    </net>
+    <net code="37" name="GND">
+      <node ref="C1" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="C2" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="C3" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="C4" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="C5" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="C6" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="J1" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="J2" pin="2" pinfunction="GND" pintype="input"/>
+      <node ref="LS2" pin="2" pinfunction="2" pintype="input"/>
+      <node ref="Q1" pin="2" pinfunction="E" pintype="passive"/>
+      <node ref="R1" pin="6" pinfunction="2" pintype="passive"/>
+      <node ref="R6" pin="1" pintype="passive"/>
+      <node ref="U1" pin="19" pinfunction="VSS" pintype="power_in"/>
+      <node ref="U1" pin="8" pinfunction="VSS" pintype="power_in"/>
+      <node ref="U2" pin="29" pinfunction="GND" pintype="power_in"/>
+      <node ref="U2" pin="5" pinfunction="GND" pintype="power_in"/>
+      <node ref="U3" pin="2" pinfunction="GND" pintype="passive"/>
+      <node ref="U3" pin="6" pinfunction="OHO" pintype="input"/>
+    </net>
+    <net code="38" name="Net-(C6-Pad1)">
+      <node ref="C6" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="R3" pin="1" pintype="passive"/>
+      <node ref="U3" pin="3" pinfunction="TCH" pintype="input"/>
+    </net>
+    <net code="39" name="Net-(D1-Pad2)">
+      <node ref="D1" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="LS1" pin="2" pinfunction="2" pintype="input"/>
+      <node ref="Q1" pin="3" pinfunction="C" pintype="passive"/>
+    </net>
+    <net code="40" name="Net-(JP4-Pad2)">
+      <node ref="JP4" pin="2" pinfunction="B" pintype="passive"/>
+      <node ref="U1" pin="17" pinfunction="RC6/TX/CK" pintype="bidirectional"/>
+    </net>
+    <net code="41" name="Net-(JP5-Pad2)">
+      <node ref="JP5" pin="2" pinfunction="B" pintype="passive"/>
+      <node ref="U1" pin="18" pinfunction="RC7/RX/DT" pintype="bidirectional"/>
+    </net>
+    <net code="42" name="Net-(JP9-Pad2)">
+      <node ref="JP9" pin="2" pinfunction="B" pintype="passive"/>
+      <node ref="R5" pin="1" pintype="passive"/>
+    </net>
+    <net code="43" name="Net-(LED1-Pad2)">
+      <node ref="LED1" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R4" pin="1" pintype="passive"/>
+    </net>
+    <net code="44" name="Net-(LS2-Pad1)">
+      <node ref="LS2" pin="1" pinfunction="1" pintype="input"/>
+      <node ref="Q1" pin="1" pinfunction="B" pintype="input"/>
+      <node ref="R5" pin="2" pintype="passive"/>
+    </net>
+    <net code="45" name="Net-(R6-Pad2)">
+      <node ref="R6" pin="2" pintype="passive"/>
+      <node ref="U2" pin="6" pinfunction="R_EXT" pintype="bidirectional"/>
+    </net>
+    <net code="46" name="unconnected-(J1-Pad6)">
+      <node ref="J1" pin="6" pinfunction="Pin_6" pintype="passive+no_connect"/>
+    </net>
+    <net code="47" name="unconnected-(U1-Pad2)">
+      <node ref="U1" pin="2" pinfunction="ULPWU/C12IN0-/AN0/RA0" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="48" name="unconnected-(U1-Pad3)">
+      <node ref="U1" pin="3" pinfunction="C12IN1-/AN1/RA1" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="49" name="unconnected-(U1-Pad4)">
+      <node ref="U1" pin="4" pinfunction="CVref/C2IN1+/Vref-/AN2/RA2" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="50" name="unconnected-(U1-Pad5)">
+      <node ref="U1" pin="5" pinfunction="C1IN+/Vref+/AN3/RA3" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="51" name="unconnected-(U1-Pad6)">
+      <node ref="U1" pin="6" pinfunction="T0CKI/C1OUT/RA4" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="52" name="unconnected-(U1-Pad7)">
+      <node ref="U1" pin="7" pinfunction="~{SS}/C2OUT/AN4/RA5" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="53" name="unconnected-(U1-Pad9)">
+      <node ref="U1" pin="9" pinfunction="CLKIN/OSC1/RA7" pintype="input+no_connect"/>
+    </net>
+    <net code="54" name="unconnected-(U1-Pad10)">
+      <node ref="U1" pin="10" pinfunction="CLKOUT/OSC2/RA6" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="55" name="unconnected-(U1-Pad11)">
+      <node ref="U1" pin="11" pinfunction="RC0/T1OSO/T1CK1" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="56" name="unconnected-(U1-Pad12)">
+      <node ref="U1" pin="12" pinfunction="RC1/T1OSI/CCP2" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="57" name="unconnected-(U1-Pad16)">
+      <node ref="U1" pin="16" pinfunction="RC5/SDO" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="58" name="unconnected-(U1-Pad22)">
+      <node ref="U1" pin="22" pinfunction="P1C/AN10/RB1" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="59" name="unconnected-(U1-Pad23)">
+      <node ref="U1" pin="23" pinfunction="P1B/AN8/RB2" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="60" name="unconnected-(U1-Pad25)">
+      <node ref="U1" pin="25" pinfunction="P1D/AN11/RB4" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="61" name="unconnected-(U1-Pad26)">
+      <node ref="U1" pin="26" pinfunction="~{T1G}/AN13/RB5" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="62" name="unconnected-(U2-Pad15)">
+      <node ref="U2" pin="15" pinfunction="CB9" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="63" name="unconnected-(U2-Pad16)">
+      <node ref="U2" pin="16" pinfunction="C_FILT" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="64" name="unconnected-(U2-Pad17)">
+      <node ref="U2" pin="17" pinfunction="AUDIOIN" pintype="input+no_connect"/>
+    </net>
+  </nets>
+</export>
