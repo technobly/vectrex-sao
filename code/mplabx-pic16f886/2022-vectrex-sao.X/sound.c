@@ -21,7 +21,12 @@ uint16_t maxDutyCycle(void) {
  */
 
 void playNote(uint16_t freq) {
+#if SOUND_ENABLED
     pwm_freq = freq;
+#else
+    pwm_freq = 0;
+#endif
+
     if (pwm_freq > A5) {
         tmr2_prescale = 4;
     } else {

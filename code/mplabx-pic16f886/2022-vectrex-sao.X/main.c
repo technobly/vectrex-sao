@@ -14,6 +14,7 @@
 #include "notes.h"
 #include "sound.h"
 #include "sprite.h"
+#include "eeprom.h"
 
 // This would be the best octave, but we can't go that low
 //uint16_t song_vec_startup[] = { 0,1500, A3,232, 0,10, A3,116, G4,1200, 0,2000, 1,1 }; // 1,1 is end of song
@@ -71,6 +72,13 @@ const uint8_t num3by4_blank[] = {
     0b01110111,
 };
 
+// Pattern to blank out 3 lines
+const uint8_t blank_3[] = {
+    0b01111111, // BLANK
+    0b01111111,
+    0b01111111,
+};
+
 // ship
 uint8_t sprite1[] = {
     3,
@@ -115,126 +123,62 @@ const uint8_t shipExplosion[] = {
     0b00100000,
     0b00000001,
     
-    0b01000000, // frame 1
+    0b01000000, // frame 2
     0b00000000, 
     0b00000000,
     0b00000000,
     0b00100000,
     
-    0b00000000, // frame 1
+    0b00000000, // frame 3
     0b00000000, 
     0b00000000,
     0b00000000,
     0b00000000,
 };
+// next
+uint8_t nextSprite[] = {
+    5,
+    0,
+    0,
+    0b01000100, // 010100 (shifted down 3)
+    0b00100010, // 001010
+    0b00010001, // 000101
+    0b00100010, // 001010
+    0b01000100, // 010100
+};
 
-
+// high score "HI"
+const uint8_t highScoreText[] = {
+    0b01010111, // 1010111 (shifted down 7)
+    0b01110010, // 1110010
+    0b01010010, // 1010010
+    0b01010111, // 1010111
+};
 
 uint8_t temp;
-
-// The lookup table to make the brightness changes be more visible
-uint8_t sweep[] = { 1, 2, 3, 4, 6, 8, 10, 15, 20, 30, 40, 60, 60, 40, 30, 20, 15, 10, 8, 6, 4, 3, 2, 1 };
-
 uint8_t touchPressed = 1;
 uint8_t toggleLed = 0;
 uint8_t portbTemp = 0;  // variable to use as PORTB dump
 uint8_t startupOnce = 0;
-
-//void interrupt(void) {
-////    if (INTF) {
-////        touchPressed = 1;
-////        INTF = 0;
-////    }
-//     
-//    if (RBIF) {
-//        portbTemp = PORTB;
-////        if ((portbTemp & 0x02) == 0) { // check if RB1 is shorted to GND
-//            touchPressed = 1;
-////        }
-//        RBIF = 0;
-//    }
-//}
-//
-//void main() {
-//    TRISB0 = 0;         // SET RB0 AS OUTPUT
-//    TRISB1 = 1;         // SET RB1 AS INPUT
-//    ANSEL = 0;      // DISABLE ANALOG FUNCTION ON PORTB
-//    ANSELH = 0;      // DISABLE ANALOG FUNCTION ON PORTB
-//    C1ON = 0;
-//    C2ON = 0;
-//    nRBPU = 0;          // Enable Global WPUB
-//    WPUB1 = 1;         // Enable WPUB for RB1
-////    INTEDG = 0;         // Interrupt from High TO Low
-//    IOCB1 = 1;          // RB1 is used to create an interrupt
-//    RBIF = 0;
-//    RBIE = 1;           // Turn on IOCB
-//    GIE = 1;            // Enable Global Interrupt
-////    INTE = 1;           // Enable External Interrupt
-//    
-//    
-////    RBIF = 0;           // Clear the interrupt flag
-////    INTF = 0;           // Clear External Interrupt Flag
-// 
-//    while(1) {
-//        if (touchPressed) {
-//            if (++toggleLed & 1) {
-//                RB0 = 1;
-//            } else {
-//                RB0 = 0;
-//            }
-//            delay(200);
-//            touchPressed = 0;
-//        }
-//    }
-//}     
+uint8_t highscoreOnBoot = 1;
 
 void main(void) {
-//    delay(200);
-   
-//    i2c_init(100000);   // 100kHz Master Mode
     ledBegin(ISSI_ADDR_DEFAULT << 1);
     
-    srand((int)0x55);
+    srand((int)0x55);   // Seed the random number generator
  
-    int i = 0;
-//    TRISB0 = 0;         // RB0 as Output PIN
-//    TRISB1 = 1;         // RB1 as Input PIN
     TRISB0 = 1;         // RB0 as Input PIN
     ANSEL = 0;          // DISABLE ANALOG FUNCTION ON PORTB
     ANSELH = 0;         // DISABLE ANALOG FUNCTION ON PORTB
     C1ON = 0;
     C2ON = 0;
     nRBPU = 0;          // Enable Global WPUB
-//    WPUB1 = 1;          // Enable WPUB for RB1
     WPUB0 = 1;          // Enable WPUB for RB0
-
-    
-//    uint8_t noteSize = sizeof(notes)/sizeof(notes[0]);
-//    while (1) {
-////        for (uint8_t note = 0; note < noteSize; note++) {
-////            playNote(notes[note]);
-////            delay(100);
-////        }
-////        for (uint8_t note = noteSize - 2; note > 0; note--) {
-////            playNote(notes[note]);
-////            delay(100);
-////        }
-//        delay(2000);
-//        playNote(A4);
-//        delay(232);
-//        playNote(0);
-//        delay(10);
-//        playNote(A4);
-//        delay(116);
-//        playNote(A5);
-//        delay(1200);
-//        playNote(0);
-//    }
     
     // SUPER LOOP
     while (1) {
         
-//    // STARTUP SCREEN
+    // STARTUP SCREEN
     while(1) {
         static uint8_t counter = 0;
         static uint8_t dwell_count = 0;
@@ -340,31 +284,63 @@ void main(void) {
     uint8_t numIndex = 0;
     uint8_t scoreHi = 0;
     uint8_t scoreLo = 0;
+    uint8_t highScoreHi = 0;
+    uint8_t highScoreLo = 0;
+    uint8_t highScoreCount = 0;
+    uint8_t highScoreToggle = 1;
     uint8_t scoreCount = 0;
+    uint8_t scoreCountGameOver = 0;
     uint8_t fuel = 255;
     uint8_t gameOver = 0;
-//    
-//    while (1) {
-//        sprite1[SPRITE_DX_OFFSET] = 4;
-//        sprite1[SPRITE_DY_OFFSET] = 4;
-//        drawSprite(sprite1, SHIP_BRIGHTNESS_MIN);
-//        delay(1000);
-//        drawSprite(sprite1, 0);
-//        drawObject(shipExplosion, 0 * 5, 5, sprite1[SPRITE_DX_OFFSET], sprite1[SPRITE_DY_OFFSET]-1, SHIP_BRIGHTNESS_MAX);
-//        delay(1000);
-//        drawObject(shipExplosion, 0 * 5, 5, sprite1[SPRITE_DX_OFFSET], sprite1[SPRITE_DY_OFFSET]-1, 0);
-//        drawObject(shipExplosion, 1 * 5, 5, sprite1[SPRITE_DX_OFFSET], sprite1[SPRITE_DY_OFFSET]-1, SHIP_BRIGHTNESS_MAX);
-//        delay(1000);
-//        drawObject(shipExplosion, 1 * 5, 5, sprite1[SPRITE_DX_OFFSET], sprite1[SPRITE_DY_OFFSET]-1, 0);
-//        drawObject(shipExplosion, 2 * 5, 5, sprite1[SPRITE_DX_OFFSET], sprite1[SPRITE_DY_OFFSET]-1, SHIP_BRIGHTNESS_MAX);
-//        delay(1000);
-//        drawObject(shipExplosion, 2 * 5, 5, sprite1[SPRITE_DX_OFFSET], sprite1[SPRITE_DY_OFFSET]-1, 0);
-//    }
+    uint8_t userInput = 0;
 
+    ledClear();
+    highScoreHi = readEEPROM(2);
+    highScoreLo = readEEPROM(1);
+    if (highScoreHi >= 9 && highScoreLo >= 9) {
+        highScoreHi = 0;
+        highScoreLo = 0;
+        writeEEPROM(1, highScoreLo);
+        writeEEPROM(2, highScoreHi);
+    }
+    if (highscoreOnBoot && (highScoreHi > 0 || highScoreLo > 0)) { // Show high score first boot if there is one
+        scoreCountGameOver = 80;
+    } else {
+        highscoreOnBoot = 0;
+    }
     while (1) {
         if (scoreCount) {
             drawObject(num3by4, scoreLo * 4, 4, 0, 3, SHIP_BRIGHTNESS_MIN);
             drawObject(num3by4, scoreHi * 4, 4, 4, 3, SHIP_BRIGHTNESS_MIN);
+        } else if (scoreCountGameOver) {
+            if (!highscoreOnBoot) {
+                drawObject(num3by4, scoreLo * 4, 4, 0, 0, SHIP_BRIGHTNESS_MIN);
+                drawObject(num3by4, scoreHi * 4, 4, 4, 0, SHIP_BRIGHTNESS_MIN);
+            }
+            if (highScoreHi > scoreHi || (highScoreHi == scoreHi && highScoreLo > scoreLo)) {
+                if (highscoreOnBoot) {
+                    drawObject(num3by4, highScoreLo * 4, 4, 0, 6, SHIP_BRIGHTNESS_MIN);
+                    drawObject(num3by4, highScoreHi * 4, 4, 4, 6, SHIP_BRIGHTNESS_MIN);
+                    drawObject(highScoreText, 0, 4, 0, 0, SHIP_BRIGHTNESS_MIN);
+                } else {
+                    if (highScoreToggle & 1) {
+                        drawObject(num3by4, highScoreLo * 4, 4, 0, 6, SHIP_BRIGHTNESS_MIN);
+                        drawObject(num3by4, highScoreHi * 4, 4, 4, 6, SHIP_BRIGHTNESS_MIN);
+                    } else {
+                        drawObject(highScoreText, 0, 4, 0, 6, SHIP_BRIGHTNESS_MIN);
+                    }
+                    if (++highScoreCount > 15) {
+                        highScoreCount = 0;
+                        highScoreToggle++;
+                        if (highScoreToggle & 1) {
+                            drawObject(highScoreText, 0, 4, 0, 6, 0);
+                        } else {
+                            drawObject(num3by4, highScoreLo * 4, 4, 0, 6, 0);
+                            drawObject(num3by4, highScoreHi * 4, 4, 4, 6, 0);
+                        }
+                    }
+                }
+            }
         } else {
             if (!gameOver) {
                 drawSprite(sprite1, SHIP_BRIGHTNESS_MIN);
@@ -376,29 +352,21 @@ void main(void) {
                 if (!dxBg) blinkSprite(sprite3, 2, THRUST_BRIGHTNESS_MIN, THRUST_BRIGHTNESS_MAX);
                 if (bombActive) drawSprite(sprite4, BOMB_BRIGHTNESS_MIN);
                 if (bombHit) blinkSprite(sprite4, 2, BOMB_BRIGHTNESS_MIN, BOMB_BRIGHTNESS_MAX);
-            }
-            
-            else {
+            } else { // GAME OVER!!!!
                 uint8_t shipExplodeFrame = 0;
                 uint8_t drawOrErase = 0;
                 drawSprite(sprite2, BG_BRIGHTNESS_MIN);
                 bombNote = 16;
                 for (uint16_t x = 0; x < 250; x++) {
                     if (x & 1) {
-//                        playNote((uint8_t)(rand() & 0xf) + 40); // 50Hz ~ 113Hz);
-                        playNote(bombNote);
+                        if (userInput) {
+                            playNote(bombNote);
+                        } else {
+                            playNote(0);
+                        }
                     } else {
                         playNote(0);
                     }
-//                    if (bombNote >= 50) {
-//                        bombNote = 0;
-//                    }
-//                    if (RB0 == 0) {
-//                        bombNote++;
-//                        delay(30);
-//                        while (RB0 == 0);
-//                    }
-//                    delay(1);
                     if ((x & 0x0f) == 0x0f) {   
                         if (shipExplodeFrame > 0) {
                             drawObject(shipExplosion, (shipExplodeFrame-1) * 5, 5, sprite1[SPRITE_DX_OFFSET], sprite1[SPRITE_DY_OFFSET]-1, 0);
@@ -407,23 +375,33 @@ void main(void) {
                         }
                         drawObject(shipExplosion, shipExplodeFrame * 5, 5, sprite1[SPRITE_DX_OFFSET], sprite1[SPRITE_DY_OFFSET]-1, SHIP_BRIGHTNESS_MAX);
                         drawSprite(sprite2, BG_BRIGHTNESS_MIN);
-                        if (shipExplodeFrame < 3) {
+                        if (shipExplodeFrame < 2) {
                             shipExplodeFrame++;
                         } else {
                             shipExplodeFrame = 0;
                         }
                     }
                 }
-                playNote(0);
-                break;
+                ledClear(); // blank screen
+                if (userInput) {
+                    scoreCountGameOver = 80; // display final score
+                    writeEEPROM(1, highScoreLo);
+                    writeEEPROM(2, highScoreHi);
+                } else {
+                    playNote(0);
+                    break; // EXIT GAME
+                }
             }
         }
         
-        delay(20);
+        delay(20); // Give each frame of visual data a bit of time to be displayed
         
-        if (scoreCount) {
+        // Now erase objects to allow for them to be moved on the next frame
+        if (scoreCount == 1) { // erase on last frame
             drawObject(num3by4, scoreLo * 4, 4, 0, 3, 0);
             drawObject(num3by4, scoreHi * 4, 4, 4, 3, 0);
+        } else if (scoreCountGameOver) {
+            // Don't erase this final score screen now, it just makes it flickery
         } else {
             eraseSprite(sprite1);
             eraseSprite(sprite2);
@@ -432,6 +410,20 @@ void main(void) {
         }
         if (scoreCount) {
             scoreCount--;
+        }
+        if (scoreCountGameOver) {
+            scoreCountGameOver--;
+            if (scoreCountGameOver == 0) {
+                if (gameOver) {
+                    playNote(0);
+                    break; // EXIT GAME
+                } else {
+                    if (highscoreOnBoot) {
+                        highscoreOnBoot = 0;
+                    }
+                    ledClear(); // clear screen and start game
+                }
+            }
         }
       
         // move sprite1 (ship)
@@ -443,7 +435,6 @@ void main(void) {
                     if (sprite1[SPRITE_DX_OFFSET] > 2) {
                         sprite1[SPRITE_DX_OFFSET] -= 1;
                         sprite3[SPRITE_DX_OFFSET] -= 1;
-//                        if (!bombActive) sprite4[SPRITE_DX_OFFSET] -= 1;
                     } else {
                         dirShip = 0;
                         dxShip = SHIP_ACCELERATE_DX;
@@ -455,7 +446,6 @@ void main(void) {
                     if (sprite1[SPRITE_DX_OFFSET] < 6) {
                         sprite1[SPRITE_DX_OFFSET] += 1;
                         sprite3[SPRITE_DX_OFFSET] += 1;
-//                        if (!bombActive) sprite4[SPRITE_DX_OFFSET] += 1;
                     } else {
                         dirShip = 1;
                         dxShip = SHIP_DECELERATE_DX;
@@ -469,18 +459,27 @@ void main(void) {
         
         // Read touch joystick
         if (RB0 == 0) {
-            touchCount++;
-            if (touchCount > 50) {
-                playNote(0);
-                break;
-            }
-            // drop sprite4 (bomb)
-            if (!bombHit && !bombActive) {
-                bombActive = 1;
-                bombCount = 0;
-                bombNote = G6; // fly like a G6!
-                playNote(bombNote);
-                sprite4[SPRITE_DX_OFFSET] = sprite3[SPRITE_DX_OFFSET];
+            userInput = 1;
+
+//            // Switch to next game if button held??
+//            touchCount++;
+//            if (touchCount > 100) {
+//                ledClear(); // blank screen
+//                drawSprite(nextSprite, BOMB_BRIGHTNESS_MIN);
+//                delay(2000);
+//                playNote(0);
+//                break;
+//            }
+
+            if (++touchCount < 50) { // only allow rapid fire for about 3 shots
+                // drop sprite4 (bomb)
+                if (!bombHit && !bombActive) {
+                    bombActive = 1;
+                    bombCount = 0;
+                    bombNote = G6; // fly like a G6!
+                    playNote(bombNote);
+                    sprite4[SPRITE_DX_OFFSET] = sprite3[SPRITE_DX_OFFSET];
+                }
             }
         } else {
             touchCount = 0;
@@ -527,6 +526,10 @@ void main(void) {
                             scoreLo -= 10;
                             scoreHi++;
                         }
+                        if (scoreHi > highScoreHi || (scoreHi == highScoreHi && scoreLo > highScoreLo)) {
+                            highScoreHi = scoreHi;
+                            highScoreLo = scoreLo;
+                        }
                     } else {
                         sprite4[SPRITE_DY_OFFSET] = 2;
                     }
@@ -554,8 +557,8 @@ void main(void) {
                 bombActive = 0;
                 sprite4[SPRITE_DY_OFFSET] = 2;
                 scoreCount = 20; // display score
-                if (fuel < 235) {
-                    fuel += 40; // refuel after score displayed
+                if (fuel < 175) {
+                    fuel += 80; // refuel after score displayed
                 }
             }
         }
@@ -567,64 +570,9 @@ void main(void) {
                 fuel--;
             } else {
                 sprite2[SPRITE_DX_OFFSET] = 0;
-//                fuel--;
             }
         }
-    }
+    } // END SCRAMBLE
     
-//    // RANDOM MOVEMENT and BLINK   
-//    int8_t random_x = rand() & 0x7;
-//    if (random_x > 6) random_x = 6;
-//    int8_t random_y = rand() & 0xF;
-//    if (random_y > 10) random_y = 9;
-//    int8_t random_dx = rand() & 1;
-//    if (random_dx == 0) {
-//        random_dx = -1;
-//    }
-//    int8_t random_dy = rand() & 1;
-//    if (random_dy == 0) {
-//        random_dy = -1;
-//    }
-//    uint8_t moveCounter = 0;
-//    uint8_t changeCounter = rand() & 0xf;
-//    while(1) {
-//        if (--changeCounter == 0) {
-//            random_dx = rand() & 1;
-//            if (random_dx == 0) {
-//                random_dx = -1;
-//            }
-//            random_dy = rand() & 1;
-//            if (random_dy == 0) {
-//                random_dy = -1;
-//            }
-//            changeCounter = (rand() & 0xf) + 9;
-//        }
-////        RB0 = 1;
-//        ledDrawPixel(random_y, random_x, 100);
-//        playNote(16);
-//        delay(10);
-////        RB0 = 0;
-//        ledDrawPixel(random_y, random_x, 10);
-//        playNote(0);
-//        delay(10);
-//        ledDrawPixel(random_y, random_x, 0);
-//        if (++moveCounter > 3) {
-//            moveCounter = 0;
-//            random_x += random_dx;
-//            if (random_x < 0) {
-//                random_x = 6;
-//            } else if (random_x > 6) {
-//                random_x = 0;
-//            }
-//            random_y += random_dy;
-//            if (random_y < 0) {
-//                random_y = 9;
-//            } else if (random_y > 9) {
-//                random_y = 0;
-//            }
-//        }
-//    }
-    
-    
-    } // SUPER LOOP
+    } // END SUPER LOOP
 } // main()

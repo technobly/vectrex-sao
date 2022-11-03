@@ -37,6 +37,8 @@ extern "C" {
     
 #define delay(ms)   __delay_ms(ms)
 
+#define SOUND_ENABLED (1) // 0 to disable (or just unsolder the SOUND jumper on the PCB)
+
 #ifdef	__cplusplus
 }
 #endif
