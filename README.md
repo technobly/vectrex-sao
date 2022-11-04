@@ -11,9 +11,11 @@ Hardware and software files for the mini playable Vectrex SAO by Brett Walach.  
 - Speaker (auto mutes if not playing, or can permanently disable with removing a solder blob)
 - Coily cord!
 - Jumpers for hacking, control it via I2C directly if you want from a main badge... and there's PWM input for the speaker and touch controller output for sensing button presses available to wire to the SAO connector.
+- **High score permanently saved!** Tweet a pic of your score @Technobly #vectrex-sao #supercon #badgelife
 
-* Video of it in action:
-    [Video Demo](https://www.youtube.com/watch?v=_dLVXqdKwO0&ab_channel=PlayVectrex)
+# Video of it in action:
+
+[Youtube.com/PlayVectrex](https://www.youtube.com/watch?v=_dLVXqdKwO0&ab_channel=PlayVectrex)
 
 # License
 
