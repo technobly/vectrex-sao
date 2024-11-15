@@ -29,3 +29,5 @@
 "U1, ","1","PIC16F886-IP","PIC16F886-IP","Package_SO:SOIC-28W_7.5x17.9mm_P1.27mm","8K Flash, 256B SRAM, 256B EEPROM, XLP, DIP28","Digikey","PIC16F886-I/SO-ND"
 "U2, ","1","IS31FL3731-QFLS2-TR","IS31FL3731-QFLS2-TR","Package_DFN_QFN:QFN-28-1EP_4x4mm_P0.4mm_EP2.3x2.3mm","LED Controller","Digikey","2521-IS31FL3731-QFLS2-TRCT-ND"
 "U3, ","1","TC233A","TC233A","Package_TO_SOT_SMD:SOT-23-6","Touch Controller","LCSC","C2798022"
+"W1","9","3132-26-1-0500-001-1-TS","3132-26-1-0500-001-1-TS","Wire QTY in inches","26 AWG Stranded Black Silicone Wire","Digikey","1175-3132-26-1-0500-001-1-TS-DS-ND"
+"W2","2","10982-18-1-2000-001-1-TD","10982-18-1-2000-001-1-TD","Wire QTY in inches","18 AWG Solid Black PVC Wire","Digikey","1175-2662-10-ND"

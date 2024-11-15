@@ -18,7 +18,7 @@ Hardware and software files for the mini playable Vectrex SAO by Brett Walach.  
 - gerbers/vectrex-sao.csv contains all parts required to build the SAO
 - gerbers/vectrex-sao-leds-only.csv can be used to order just the LED side of the board to be assembled by JLCPCB
 - Inner coily cord wire - 18 AWG solid core, black PVC jacket, outer diameter 1.6mm, 2.0" long with 0.25" stripped on both ends for a 1.5" long jacket. [Digikey 10982-18-1-2000-001-1-TD](https://www.digikey.com/en/products/detail/cnc-tech/10982-18-1-2000-001-1-TD/12749485)
-- Outer coily cord wire - 26 AWG stranded core, black silicone jacket, outer diameter 1.3mm, ~27 turns. [Digikey 1175-3132-26-1-0500-001-1-TS-DS-ND](https://www.digikey.com/en/products/detail/cnc-tech/3132-26-1-0500-001-1-TS/15853654)
+- Outer coily cord wire - 26 AWG stranded core, black silicone jacket, outer diameter 1.3mm, ~27 turns, ~9" long. [Digikey 1175-3132-26-1-0500-001-1-TS-DS-ND](https://www.digikey.com/en/products/detail/cnc-tech/3132-26-1-0500-001-1-TS/15853654)
 
 # Coily Cord Construction
 
