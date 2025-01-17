@@ -6,10 +6,10 @@
 	(paper "USLedger")
 	(title_block
 		(title "Vectrex SAO by Brett Walach")
-		(date "2022-09-24")
-		(rev "v1.0")
+		(date "2025-01-16")
+		(rev "v1.1")
 		(company "https://www.PlayVectrex.com")
-		(comment 1 "@Technobly / Supercon `22")
+		(comment 1 "@Technobly / Supercon `25")
 	)
 	(lib_symbols
 		(symbol "Badgelife:Badgelife_sao_connector_v169bis"
@@ -6409,12 +6409,6 @@
 		(uuid "4b2be37e-13b7-4ece-a5e0-209f5b8b8ce8")
 	)
 	(junction
-		(at 85.09 200.66)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4c1024b8-9fb5-4ad0-b201-2d64f358e4c9")
-	)
-	(junction
 		(at 251.46 110.49)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7433,16 +7427,6 @@
 			(type default)
 		)
 		(uuid "13d75bfc-10d6-45ee-8e44-5fc4c04ec57b")
-	)
-	(wire
-		(pts
-			(xy 81.28 200.66) (xy 85.09 200.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "148bd551-0801-4be2-989d-a3b21b6fd9ed")
 	)
 	(wire
 		(pts
@@ -8816,7 +8800,7 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 200.66) (xy 93.98 200.66)
+			(xy 81.28 200.66) (xy 93.98 200.66)
 		)
 		(stroke
 			(width 0)
@@ -9003,16 +8987,6 @@
 			(type default)
 		)
 		(uuid "7b36aa0c-5609-49bc-8722-84ad954927f3")
-	)
-	(wire
-		(pts
-			(xy 85.09 200.66) (xy 85.09 210.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7b85032a-0ec1-4919-bc77-9c0ba6bcfbf6")
 	)
 	(wire
 		(pts
@@ -9303,16 +9277,6 @@
 			(type dash)
 		)
 		(uuid "8c690094-f4ae-4b2e-be2c-22db4a97546e")
-	)
-	(wire
-		(pts
-			(xy 85.09 214.63) (xy 85.09 213.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8d7c6309-855c-4741-b498-2fda1ce6f517")
 	)
 	(wire
 		(pts
@@ -10924,17 +10888,6 @@
 		)
 		(uuid "ff0035bc-b575-45f3-b4c0-d192ddb74ff5")
 	)
-	(text "1k for NPN driver\n220 for direct drive"
-		(exclude_from_sim no)
-		(at 68.58 196.85 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "12b266c9-e967-4bd1-8ffb-dc6abf488c80")
-	)
 	(text "Who's in charge??\n  PIC or BADGE"
 		(exclude_from_sim no)
 		(at 176.53 29.21 0)
@@ -10945,17 +10898,6 @@
 			(justify left bottom)
 		)
 		(uuid "12fd8651-32a5-4f37-8ac4-273400b236a0")
-	)
-	(text "R5 & LS2 for quieter operation.\nR5, Q1, D1, LS1 for loud operation!"
-		(exclude_from_sim no)
-		(at 77.47 227.33 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "2da88e60-fa91-4232-a8ca-d081852b79b2")
 	)
 	(text "A jumper is installed\nto connect the joystick\nPCB to the TOUCH_PAD\ninput."
 		(exclude_from_sim no)
@@ -13911,7 +13853,7 @@
 				)
 			)
 		)
-		(property "Footprint" "vectrex-sao:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
+		(property "Footprint" "vectrex-sao:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm"
 			(at 67.31 200.66 0)
 			(effects
 				(font
@@ -19678,71 +19620,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 85.09 214.63 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "e848b761-7645-461b-8923-ee78d0dbd6c1")
-		(property "Reference" "#PWR0125"
-			(at 85.09 220.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 85.09 218.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 85.09 214.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 85.09 214.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 85.09 214.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "987b74ba-bb21-4dfc-908b-2592f6a08afb")
-		)
-		(instances
-			(project ""
-				(path "/5bd48589-aaed-4c88-bda0-0bb74259d49c"
-					(reference "#PWR0125")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "vectrex-sao:RESISTOR_4PACK")
 		(at 220.98 71.12 270)
 		(unit 3)
@@ -19824,76 +19701,6 @@
 				(path "/5bd48589-aaed-4c88-bda0-0bb74259d49c"
 					(reference "R1")
 					(unit 3)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:Speaker")
-		(at 90.17 210.82 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e8a59c31-6241-447e-8c1f-c9a80b076ba6")
-		(property "Reference" "LS2"
-			(at 94.488 211.2553 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Speaker FUET-9032-05"
-			(at 94.488 213.7922 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "vectrex-sao:MagneticBuzzer_FUET-9032-05"
-			(at 90.17 215.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 89.916 212.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 90.17 210.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "527c1973-e09e-4496-a5c2-3beee76ab26c")
-		)
-		(pin "2"
-			(uuid "16c068b0-b238-430a-8b14-a110ef0259b3")
-		)
-		(instances
-			(project ""
-				(path "/5bd48589-aaed-4c88-bda0-0bb74259d49c"
-					(reference "LS2")
-					(unit 1)
 				)
 			)
 		)

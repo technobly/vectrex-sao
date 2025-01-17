@@ -17,9 +17,10 @@ Hardware and software files for the mini playable Vectrex SAO by Brett Walach.  
 
 # BOM
 
-- PCBs: 1.0mm, HASL finish, white silkscreen, black soldermask, gives a nice thin feel to them.
-- [gerbers/vectrex-sao.csv](gerbers/vectrex-sao.csv) contains all parts required to build the SAO
-- [gerbers/vectrex-sao-leds-only.csv](gerbers/vectrex-sao-leds-only.csv) can be used to order just the LED side of the board assembled by JLCPCB
+- PCBs: 1.0mm, HASL finish, white silkscreen, black soldermask, gives a nice thin feel to them. NOTE: 1.0mm is thinner than standard PCBs!
+- Don't forget to order both PCBs: 1) the main [console body](gerbers/vectrex-sao-v1.1.zip) and 2) the [controller](gerbers/vectrex-sao-controller-v1.1.zip)
+- [bom/vectrex-sao-bom-both-sides.csv](bom/vectrex-sao-bom-both-sides.csv) contains all parts required to build the SAO, ready to upload to JLCPCB
+- [bom/vectrex-sao-pos-both-sides.csv](bom/vectrex-sao-pos-both-sides.csv) contains the position of all parts required, ready to upload to JLCPCB
 - Inner coily cord wire - 18 AWG solid core, black PVC jacket, outer diameter 1.6mm, 2.0" long with 0.25" stripped on both ends for a 1.5" long jacket. [Digikey 10982-18-1-2000-001-1-TD](https://www.digikey.com/en/products/detail/cnc-tech/10982-18-1-2000-001-1-TD/12749485)
 - Outer coily cord wire - 26 AWG stranded core, black silicone jacket, outer diameter 1.3mm, ~27 turns, ~9" long. [Digikey 1175-3132-26-1-0500-001-1-TS-DS-ND](https://www.digikey.com/en/products/detail/cnc-tech/3132-26-1-0500-001-1-TS/15853654)
 
@@ -33,7 +34,7 @@ Hardware and software files for the mini playable Vectrex SAO by Brett Walach.  
 
 ![](images/coily2.jpg)
 
-#### 3. Add a good amount of solder here, and push the board up against the wire bundle if possible (I did not push it up in this picture like I should have). 
+#### 3. Add a good amount of solder here, and push the board up against the wire bundle if possible (I did not push it up in this picture like I should have).
 
 ![](images/coily3.jpg)
 
